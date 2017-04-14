@@ -1,0 +1,48 @@
+<meta charset="utf-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+<!-- Meta Tags -->
+<meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" name="description">
+<meta content="website design, responsive website, ecommerce, web design mayo, affordable web design, websites in ireland, sk design, sk web design, responsibe web design, web development, HTML5, CSS3, graphic Design, wordpress, responsive, adaptive, mobile-friendly, psd2html, digital media, Mayo, County Mayo, Castlebar, Connaught" name="keywords">
+<meta content="Sebastian Kulig" name="author">
+<meta content="index, follow" name="robots">
+<meta content="index, follow" name="googlebot">
+<meta content="Sebastian Kulig" name="copyright">
+
+<meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}">
+
+<meta property="og:locale" content="en_IE">
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:locale:alternate" content="en_UK" />
+<meta property="og:site_name" content=" {{ site.title }}">
+<meta property="og:image" content="http://www.sebastiankulig.com/img/rich-media-image.jpg">
+
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
+<meta name="twitter:creator" content="@sebam2k4">
+<meta name="twitter:site" content="@sebam2k4">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://www.sebastiankulig.com/img/rich-media-image.jpg">
+
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+
+<!-- CSS Stylesheets -->
+<link href="{{ site.url }}/css/main.css" rel="stylesheet">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}/sitemap.xml">

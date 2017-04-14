@@ -1,0 +1,45 @@
+---
+layout: page
+title: Contact Sebastian Kulig - Web Developer and Designer
+permalink: /contact/
+---
+
+<main id="pages">
+        <article>
+            <header class="intro">
+                <h1>Contact</h1>
+                <h2>General enquiry</h2>
+            </header>
+            
+            <a href="{{ site.url }}/hire-sebastian/" title="Enquire about hiring me for your project"><button class="more"><i class="fa fa-chevron-left"></i> Back to Project Enquiry</button></a>
+            
+            <div class="content">
+                <p>Please fill out the form below for general enquiries.</p>
+                <p class="note">Required fields are followed by <strong><abbr title="required">*</abbr></strong></p>
+                <form name="sendMessage" id="contactForm" action="http://www.sebastiankulig.com/contact.php" method="post">
+                    <h2>Your Details </h2>
+
+                    <p>
+                    <label for="name">Your name <strong>*</strong></label>
+                    <input id="name" name="name" type="text" placeholder="eg. Sebastian Kulig" autocomplete="off" required>
+                    </p>
+
+                    <p><label for="email">Email address <strong>*</strong></label><input id="email" name="_replyto" type="email" placeholder="eg. info@gmail.com" autocomplete="off" required></p>
+
+                    <p><label for="phone">Phone Number</label><input id="phone" name="phone" type="text" placeholder="eg. +353 (0)86 8814964" autocomplete="off"></p>
+
+                    <p><label for="businessname">Company Name</label><input id="businessname" name="businessname" type="text" placeholder="eg. Joe Repair Shop or Market Florist" autocomplete="off"></p>
+
+                    <p><label for="message">Your Message <strong><abbr title="required">*</abbr></strong></label><textarea id="message" name="message" cols="40" rows="10" required></textarea>
+                    </p>
+                    
+                       <div class="button-submit">
+                        <input type="submit" value="Send">
+                    </div>
+
+                </form>
+            </div>
+        </article>
+
+
+    </main>

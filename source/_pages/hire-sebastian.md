@@ -1,0 +1,50 @@
+---
+layout: page
+title: Hire a Web Developer and Designer - Sebastian Kulig
+permalink: /hire-sebastian/
+---
+
+<main id="pages">
+        <article>
+            <header class="intro">
+                <h1>Hire Sebastian</h1>
+                <h2>Let's talk about your project</h2>
+            </header>
+            
+            <a href="{{ site.url }}/contact/" title="General Enquiry"><button class="more">General enquiry? <i class="fa fa-chevron-right"></i></button></a>
+            
+            <div class="content">
+                <p>Please fill out the form below to enquire about hiring me for your project. To find out more about what I do, refer to my <a href="{{ site.url }}/about/">about page,</a> and to see some of my recent work, check out my <a href="{{ site.url }}/">portfolio.</a></p>
+                <p>For now I just need some general information about you and your project. After you submit this form, we’ll set up a time to discuss your project in further detail.</p>
+                <p class="note">Required fields are followed by <strong><abbr title="required">*</abbr></strong></p>
+                <form accept-charset="UTF-8" name="sendMessage" id="contactForm" action="http://www.sebastiankulig.com/contact.php" method="post">
+                    <h2>Your Details </h2>
+
+                    <p><label for="name">Your name <strong>*</strong></label>
+                    <input id="name" name="name" type="text" placeholder="eg. Sebastian Kulig" autocomplete="off" required></p>
+
+                    <p><label for="email">Email address <strong>*</strong></label>
+                    <input id="email" name="_replyto" type="email" placeholder="eg. info@gmail.com" autocomplete="off" required></p>
+
+                    <p><label for="phone">Phone Number</label><input id="phone" name="phone" type="text" placeholder="eg. +353 (0)86 8814964" autocomplete="off"></p>
+
+                    <p><label for="businessname">Company Name</label><input id="businessname" name="businessname" type="text" placeholder="eg. Joe Repair Shop or Market Florist" autocomplete="off"></p>
+
+                    <p><label for="referral">How did you hear about me?</label><input id="referral" name="referral" type="text" placeholder="eg. Twitter, Google, reffered by..." autocomplete="off"></p>
+
+                    <h2>Project Description</h2>
+
+                    <p><label for="message">Briefly describe your project, what you aim to achieve, what you'd like me to do. <strong><abbr title="required">*</abbr></strong></label><textarea id="message" name="message" cols="40" rows="10" required></textarea>
+                    </p>
+                    
+                       <div class="button-submit">
+                        <input type="submit" value="Send">
+                    </div>
+
+                </form>
+            </div>
+        </article>
+
+
+    </main>
+    
