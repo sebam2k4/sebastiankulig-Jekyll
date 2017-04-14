@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Hire a Web Developer and Designer - Sebastian Kulig
+title: Hire Sebastian - Front-end Developer and Web Designer
+description: Enquire about hiring me for your project. I'm here to help you make it a reality.
 permalink: /hire-sebastian/
 ---
 

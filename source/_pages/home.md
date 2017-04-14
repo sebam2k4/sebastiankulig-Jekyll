@@ -6,7 +6,7 @@ permalink: /
 <main>
             <header class="intro">
                 <h1>
-                    <span class="break">Welcome!</span> I am a <span class="underline">front-end web developer &amp; designer</span> creating great online experiences.
+                    <span class="break">Welcome! </span>I am a <span class="underline">front-end developer &amp; web designer</span> creating professional websites.
                 </h1>
                 <ul class="intro-list">
                     <li>HTML</li>

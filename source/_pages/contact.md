@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact Sebastian Kulig - Web Developer and Designer
+description: Contact me with any general enquiries, suggestions, or anything else. PS. I love collaborating on different projects.
 permalink: /contact/
 ---
 

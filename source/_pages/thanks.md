@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hire a Web Developer and Designer - Sebastian Kulig
+title: Thank You for contacting Sebastian - Front-end Developer and Web Designer
 permalink: /thanks/      
 ---            
        

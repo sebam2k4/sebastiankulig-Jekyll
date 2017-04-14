@@ -15,9 +15,9 @@ destination: ../_site
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Sebastian Kulig - Front-end Web Developer and Designer
+title: Sebastian Kulig - Front-end Developer and Web Designer
 email: info@sebastiankulig.com
-description: Responsive and mobile-friendly website design for your business. Based in Castlebar, Co. Mayo
+description: Responsive and mobile-friendly website design for you and your business. Based in Castlebar, Co. Mayo, Ireland
 baseurl: "" # the subpath of your site, e.g. /blog ++remove++
 url: "http://www.sebastiankulig.com" # the base hostname & protocol for your site, e.g. http://example.com ++change to http://www.sebastiankulig.com++
 twitter_username: sebam2k4

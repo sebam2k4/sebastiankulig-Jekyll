@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About Sebastian - Web Developer and Designer
+title: About Sebastian - Front-end Developer and Web Designer
+description: specializing in creating high quality responsive websites with a mobile first approach. HTML5, CSS3, Javascript, CMS, Shopify.
 permalink: /about/
 ---
 
