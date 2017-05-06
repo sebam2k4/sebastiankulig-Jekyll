@@ -21,7 +21,7 @@ permalink: /
             </header>
         
 
-        <a href="{{ site.url }}/hire-sebastian/" title="Enquire about hiring me for your project"><button id="portfolio-scroll" class="more">Available for contract work <i class="fa fa-chevron-right"></i></button></a>
+        <a href="{{ site.url }}/hire-sebastian/" title="Enquire about hiring me for your project"><button id="portfolio-scroll" class="more">Hire me <i class="fa fa-chevron-right"></i></button></a>
 
         <section id="portfolio">
             <h2>Portfolio</h2>

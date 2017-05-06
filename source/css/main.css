@@ -1,3 +1,5 @@
+/* instead of using button tag and the wrapping it in a, use just a role="button". Adjust CSS and HTML for this change (current way is not compliant) */
+
 main,
 article,
 aside,

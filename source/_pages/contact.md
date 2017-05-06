@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Contact Sebastian - Front-end Developer and Web Designer
 description: Contact me with any general enquiries, suggestions, or anything else. PS. I love collaborating on different projects.
 permalink: /contact/
 ---

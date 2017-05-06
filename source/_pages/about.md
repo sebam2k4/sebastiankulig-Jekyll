@@ -11,7 +11,7 @@ permalink: /about/
                 <h1>About Sebastian</h1>
                 <h2>Learn more about me and my skills</h2>
             </header>
-            <a href="{{ site.url }}/contact/" title="Enquire about hiring me for your project"><button class="more">Available for contract work <i class="fa fa-chevron-right"></i></button></a>
+            <a href="{{ site.url }}/contact/" title="Enquire about hiring me for your project"><button class="more">Available to work on your project <i class="fa fa-chevron-right"></i></button></a>
          
            
             <div class="content">
