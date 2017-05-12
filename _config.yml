@@ -1,5 +1,6 @@
-source: jekyllSite
+source: source/
 destination: ../_site
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -26,9 +27,6 @@ github_username:  sebam2k4
 # Build settings
 markdown: kramdown
 # theme: minima
-gems:
-  - jekyll-feed
-
 keep_files:
   - .git
 
@@ -41,7 +39,5 @@ exclude:
 include:
   - _pages
   - contact.php
-  
-#plugins
-gems:
-  - jekyll-sitemap
+
+ 
