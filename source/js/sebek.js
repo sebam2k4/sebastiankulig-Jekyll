@@ -1,4 +1,4 @@
-/* Drop down mobile nav show/hide */
+/* Drop down mobile nav show/hide  need to update this so navigation pushes the header down*/
 $(document).ready(function () {
     $('body').addClass('js');
     var $menu = $('#main-nav'),
