@@ -164,12 +164,7 @@ button#mobile-nav {
     transition: all 0.3s ease-out;
 }
 
-button#mobile-nav.active {
-    color: #1F303C;
-    border-color: #1F303C;
-    outline: none;
-    opacity: 0.8;
-}
+
 
 #main-nav {
     clear: both;

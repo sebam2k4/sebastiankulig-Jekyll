@@ -20,7 +20,7 @@ title: Sebastian Kulig - Front-end Developer and Web Designer
 email: info@sebastiankulig.com
 description: Responsive and mobile-friendly website design for you and your business. Based in Castlebar, Co. Mayo, Ireland
 baseurl: "" # the subpath of your site, e.g. /blog ++remove++
-url: "http://www.sebastiankulig.com" # the base hostname & protocol for your site, e.g. http://example.com ++change to http://www.sebastiankulig.com++
+url: "http://www.sebastiankulig.com" # the base hostname & protocol for your site, e.g. http://example.com ++change to http://www.sebastiankulig.com for production deployment++
 twitter_username: sebam2k4
 github_username:  sebam2k4
 
