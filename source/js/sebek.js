@@ -1,13 +1,9 @@
-/* Drop down mobile nav show/hide  need to update this so navigation pushes the header down*/
+/* Drop down mobile nav */
 $(document).ready(function () {
     $('body').addClass('js');
-    var $menu = $('#main-nav'),
-        $menulink = $('#mobile-nav');
 
-    $menulink.click(function () {
-        $menulink.toggleClass('active');
-        $menu.toggleClass('active');
-        return false;
+    $('#mobile-nav').click(function() {
+        $('#main-nav').toggleClass('active');
     });
 
 /* highlight nav links based on url */
