@@ -48,7 +48,7 @@ permalink: /about/
                 <h3>Design</h3>
                 <p>I can design the look of your website from scratch or convert a design provided by you or your graphic designer into perfectly coded and functioning website.
                 </p>
-                <p id="conclusion">I'd love to help you build a professional, beautiful, and functional website that will fit your needs. Visit my <a href="{{ site.url }}/">portfolio</a> for samples of my work or <a href="{{ site.url }}/contact/">tell me aobut your project.</a></p>
+                <p id="conclusion">I'd love to help you build a professional, beautiful, and functional website that will fit your needs. Visit my <a href="{{ site.url }}/">portfolio</a> for samples of my work or <a href="{{ site.url }}/hire-sebastian/">tell me aobut your project.</a></p>
             </div>
             
             
