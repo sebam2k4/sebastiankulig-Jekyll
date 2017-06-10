@@ -1,0 +1,923 @@
+/* instead of using button tag and the wrapping it in a, use just a role="button". Adjust CSS and HTML for this change (current way is not compliant) */
+
+main,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+    font: inherit;
+}
+
+::selection {
+  background: coral;
+}
+::-moz-selection {
+  background: coral;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1;
+    box-sizing: inherit;
+    font-family: 'Lato', sans-serif;
+    background-color: aliceblue
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container:after,
+.container:before {
+    content: "";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    border: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+/* END OF RESET */
+
+#header-page {
+    background: #5380A2;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100; 
+}
+
+#header-page .container {
+    padding-top: 35px;
+    min-height: 80px;
+}
+
+.logo-name {
+    display: inline-block;
+    float: left;
+}
+
+.logo-name h1{
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    vertical-align: top;
+}
+
+.logo-name a {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+.logo-name a:hover {
+    color: #1F303C;
+
+    
+}
+
+    @media only screen and (min-width: 768px) {
+
+        #header-page {
+        position: relative;
+        }
+
+    }
+
+
+/* NAVIGATION */
+
+button#mobile-nav {
+    cursor: pointer;
+    float: right;
+    border: 2px solid white;
+    padding: 0;
+    background-color: transparent;
+    color: white;
+    width: 46px;
+    height: 46px;
+    top: -18px;
+    position: relative;
+    font-size: 105%;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+
+
+#main-nav {
+    clear: both;
+    display: none;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.js #main-nav {
+    overflow: hidden;
+    max-height: 0;
+
+}
+
+#main-nav.active {
+    max-height: 15em;
+    display: block;
+    /* -webkit-transition: all 0.3s ease-out;  transition isn't working when #main-nav display: none; above. see if there is a fix
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; */
+}
+
+#main-nav ul {
+    margin: 0;
+    padding: 0;
+    border-top: 3px solid #466C88;
+    
+}
+
+#main-nav li {
+    display: block;
+    padding: 0.8rem;
+    border-bottom: 3px solid #466C88;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-weight: 700;
+    
+
+}
+
+#main-nav ul li a {
+    opacity: 0.8;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+#main-nav li a:hover {
+    color: #1F303C;
+}
+
+#main-nav ul li a.current {
+    color: white;
+    opacity: 1;
+}
+
+    @media screen and (min-width: 768px) {
+    
+        #header-page .container {
+        padding-top: 20px;
+        min-height: 80px;
+    }
+
+        .logo-name {
+        display: inline-block;
+        float: left;
+        padding: .8rem;
+    }
+        
+        #mobile-nav {
+            display: none;
+        }
+        nav#main-nav {
+            display: inline-block;
+            float: right;
+            clear: none;
+            margin-left: 0;
+            margin-right: 0
+        }
+        .js #main-nav {
+            max-height: none;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        #main-nav ul {
+            border: 0;
+            display: inline-block;
+        }
+
+        #main-nav li {
+            margin: 0 0.25em;
+            border: 0;
+            display: inline-block; /* not sure */
+        }
+
+        #main-nav li#nav-hire-me {
+            background-color: #466C88; /* Look at inline for li. need to make inline-block work in order to fill completely with background-color */
+        }
+    }
+
+
+/* END of NAVIGATION */
+
+
+    /* MAIN CONTENT */
+
+
+/* INTRO - HEADER */
+
+main {
+    margin-top: 80px;
+}
+
+    @media only screen and (min-width: 768px) {
+
+        main {
+            margin-top: 0px;
+        }
+    }
+
+header.intro {
+    width: 100%;
+    padding: 80px 30px 74px 30px;
+    color: #39586F;
+    background: #7ABCEE;
+    text-align: center;
+    display: block;
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+header.intro>* {
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+header.intro h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: .7em;
+    font-size: 1.4em;
+
+}
+
+header.intro span.break {
+    display: table;
+    margin: auto;
+    font-size: 2em;
+    font-family: 'Open Sans', san-serif;
+    font-weight: 300;
+}
+
+.intro span.underline {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    border-bottom: 1px dashed;
+    padding-bottom: -5px;
+}
+
+.intro .intro-list {
+    display: none;
+    font-size: 1.067em;
+}
+
+a#view-portfolio {
+    display: inline-block;
+    padding-top: 1.25em;
+    margin-top: 1.25em;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: white;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+a#view-portfolio:hover {
+    color: #39586F;
+}
+
+#view-portfolio .fa {
+    display: block;
+    font-size: .875em;
+}
+
+
+    @media only screen and (min-width: 480px) {
+
+        header.intro h1 {
+        font-size: 1.6em;
+    }
+
+        header.intro .intro-list {
+            display: block;
+            margin-bottom: 1em;
+            padding-left: 0;
+            font-weight: 600;
+        }
+        header.intro .intro-list li {
+            display: inline-block;
+            margin-left: .2em;
+            vertical-align: middle;
+        }
+        header.intro .intro-list li:first-child:before {
+            content: none;
+        }
+        header.intro .intro-list li:before {
+            font-family: 'FontAwesome';
+            content: '\f111';
+            font-size: 4px;
+            vertical-align: middle;
+            display: inline-block;
+            margin-right: 1.5em;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        header.intro {
+        padding: 180px 40px 174px 40px;
+    }
+        
+        header.intro h1 {
+        font-size: 1.8em;
+        }
+    }
+
+    @media only screen and (min-width: 1100px) {
+        header.intro h1 {
+        font-size: 2em;
+        }
+
+    }
+/* END of INTRO - HEADER */
+
+
+
+/* BUTTON */
+
+button.more {
+    cursor: pointer;
+    background-color: #81C6FB;
+    font-size: 1.25em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: .8rem;
+    color: white;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+    /* fix font inherit with lato. Check why 900 weight isn't woking */
+}
+
+button.more:hover,
+button.more:focus,
+button.more:active {
+    background-color: #466C88;
+}
+
+button.more .fa {
+    padding: 0 0.3em;
+}
+
+/* END of BUTTON */
+
+
+
+/* PORTFOLIO */
+
+section#portfolio {
+    background: aliceblue;
+    padding-top: 80px;
+        max-width: 1200px;
+
+}
+
+section h2 {
+    padding-bottom: 60px;
+    text-align: center;
+    color: #39586F;
+}
+
+#portfolio figure {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-top: 0.5em;
+}
+
+.portfolio-item {
+    background: transparent;
+    
+}
+
+.portfolio-item img.project {
+    opacity: .5;
+    z-index: 100;
+    webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.portfolio-item:hover>img {
+    opacity: 1;
+    webkit-transition: all 0.45s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#portfolio img.logo {
+    position: absolute;
+    top: .5em;
+    left: 0;
+    opacity: 1;
+    width: 100%;
+    background: transparent;
+    webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#portfolio img.logo:hover {
+    opacity: 0.3;
+}
+
+#portfolio img.hires {
+    display: none;
+}
+
+#portfolio h3{
+    text-align: center;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#rosewater {
+    background-color: antiquewhite;
+}
+
+#curryscakeangels {
+    background-color: #7ABCEE;
+}
+
+#carpentry {
+    background-color: #F6D380;
+}
+
+#westcoastkitchen {
+    background-color: darkseagreen;
+}
+
+
+    @media only screen and (min-width: 580px) {
+        #portfolio figure {
+            width: 50%;
+        }
+
+    }
+
+    @media only screen and (min-width: 768px) {
+        section h2 {
+        font-size: 1.6em;
+    }
+        }
+
+ /*    @media only screen and (min-width: 1100px) {
+        #portfolio figure {
+            width: 33.33%;
+        }
+    } */
+
+/*     @media only screen and (min-width: 1480px) {
+        #portfolio img .logo, #portfolio img.project {
+        display: none;
+        }
+        #portfolio img.hires {
+            display: inline-block;
+        }
+    } */
+
+/* END of PORTFOLIO */
+
+
+
+/* TESTIMONIALS */
+
+section#featured-testimonials {
+    background: aliceblue;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    max-width: 760px;
+}
+
+#featured-testimonials a {
+    color: #5380A2;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+#featured-testimonials a:hover {
+    color: #7ABCEE;
+}
+
+blockquote {
+    text-align: left;
+    padding: 0 20px 20px 20px;
+    width: 100%
+}
+
+blockquote>p {
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+blockquote footer.quote {
+    text-align: right;
+    font-weight: 700;
+    
+}
+
+/* END of TESTIMONIALS */
+
+
+    /* END of MAIN CONTENT */
+
+
+/* FOOTER */
+
+#footer-page {
+    background-color: #252626;
+    color: #99ADBB;
+}
+
+#footer-page .container {
+    padding: 40px 20px 20px 20px;
+    max-width: 760px;
+    
+}
+
+#footer-page p {
+    line-height: 1.4;
+    font-size: .875em;
+    letter-spacing: 1px;
+}
+
+#footer-page p snap {
+    color: white;
+}
+
+#footer-page a {
+    font-weight: 700;
+    color: white;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+#footer-page a:hover {
+    color: #7ABCEE;
+    
+}
+
+.col-3 {
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-block;
+    padding: 0 12px 0 8px;
+}
+
+nav#footer-nav {
+    text-align: center;
+}
+
+#footer-nav dt {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 2; 
+}
+
+
+footer dd {
+    display: none;
+}
+
+.copyright {
+    text-align: center;
+}
+
+    @media only screen and (min-width: 580px) {
+        #footer-nav dt {
+            line-height: 1.2;
+        }
+
+        footer dd {
+            display: inline-block;
+            padding-bottom: 1.5em;
+            font-size: 0.875em
+
+        }
+    }
+
+/* END of FOOTER */
+
+
+/*=================*/
+/*  PAGES Styling  */
+/*=================*/
+
+
+article {
+    background-color: aliceblue;
+}
+
+#pages header.intro {
+    line-height: 1.2;
+    padding: 60px 30px;
+}
+
+#pages header.intro h1{
+    text-transform: none;
+    color: white;
+    font-size: 2.4rem;
+        margin-bottom: .1em;
+}
+
+#pages header.intro h2 {
+    font-size: 1.2em;
+}
+
+.content li {
+    list-style-type: square;
+    line-height: 1.5;
+}
+
+.content ul {
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+}
+
+.content {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.content p {
+    line-height: 1.6;
+    margin-top: 1em;   
+}
+
+.content p:first-of-type {
+    margin-top: 0;
+}
+
+.content p a {
+    font-weight: 700;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+.content a {
+    color: inherit;
+}
+
+.content a:hover {
+    color: #7ABCEE;
+}
+
+.content p.note {
+    font-size: 0.875em;
+    margin-top: 2em
+}
+
+.content h2 {
+    font-size: 1.5em;
+    margin-top: 2em;
+    font-weight: 700;
+}
+
+.content h3 {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-top: 2em;
+    line-height: 1.3;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+        #pages header.intro {
+        line-height: 1.2;
+        padding: 100px 30px;
+    }
+    
+
+}
+
+/*================*/
+/*  CONTACT PAGE  */
+/*================*/
+
+
+
+.content form h2 {
+    font-size: 1.2em;
+    margin-top: 3em;
+}
+
+.content form h2:first-of-type {
+    margin-top: 0;
+}
+
+form {
+    margin-top: 3.5em;
+}
+
+.content form p {
+    line-height: 1.2;
+    font-size: 1rem;
+}
+
+form label{
+    margin-top: 1.4em;
+    width: 100%;
+    display: inline-block;    
+}
+
+input, textarea {
+    width: 100%;
+    padding: .8rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.button-submit {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+input[type="submit"] {
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 1.2em;
+    background-color: #7ABCEE;
+    padding: .8em 1.2em;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+input[type="submit"]:hover {
+    background-color: #466C88;
+}
+
+/*=======================*/
+/*  PORTFOLIO-ITEM PAGE  */
+/*=======================*/
+
+.portfolio-page img {
+    margin-bottom: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .portfolio-page img {
+        padding-left: 50px;
+        padding-right: 50px;
+        }
+}
+
+.button-visit-website {
+    text-align: center;
+    margin-top: 2em
+}
+
+.button-visit-website a{
+    display: inline-block;
+    background-color: #81C6FB;
+    font-size: 1.25em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+    /* fix font inherit with lato. Check why 900 weight isn't woking */
+}
+
+.button-visit-website a:hover,
+.button-visit-website a:focus,
+.button-visit-website a:active {
+    background-color: #466C88;
+    color: white;
+}
+
+.portfolio-page .content p {
+    margin-top: 2em;
+}
+
+/*=================*/
+/*  ABOUT ME PAGE  */
+/*=================*/
+
+.content img#self {
+    height: 110px;
+    width: 110px;
+    display: inline;
+    float: left;
+    margin-right: .5em;
+    margin-top: -1.1em;
+    border: 5px solid #7ABCEE;
+    border-radius: 55px;
+}
+
+.content p#conclusion {
+    margin-top: 3em;
+}
