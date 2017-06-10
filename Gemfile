@@ -22,7 +22,7 @@ gem "jekyll", "3.4.3"
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.9.2"
    gem "jekyll-sitemap", "~> 1.0.0"
-   gem 'github-pages'
+   #gem 'github-pages'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
