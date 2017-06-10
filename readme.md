@@ -5,6 +5,8 @@ Sebastian Kulig website (www.sebastiankulig.com)
 
 Migration to Jekyll started.
 
+Hosted on GitHub Pages
+
 divided the website code by repetitive sections:
 head, google analytics, header, portfolio-last-p, footer, js (javascript/JQuery links)
 
@@ -30,3 +32,6 @@ look at Jekyll Documentation
 how to intergate this with github and push updates to external host: register365
 
 learn learn learn....
+
+### note:
+Use 'git subtree push --prefix site/ origin gh-pages' to push built site from subdirectory
