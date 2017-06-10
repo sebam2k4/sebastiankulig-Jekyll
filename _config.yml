@@ -38,6 +38,6 @@ exclude:
   
 include:
   - _pages
-  - #contact.php
+  - contact.php
 
  
