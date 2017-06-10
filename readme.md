@@ -15,8 +15,10 @@ page - used for pages such as About, Contact, etc.
 
 # TO DO:
 
-Look into deployin with TRAVIS
+Note to self: Check this out
 (https://mademistakes.com/faqs/website-tools/)
+
+Research a deployment method. Github Pages is limiting. How to easily deploy to current hosting?
 
 finish content for portfolio pages
 
