@@ -5,8 +5,6 @@ Sebastian Kulig website (www.sebastiankulig.com)
 
 Migration to Jekyll started.
 
-Hosted on GitHub Pages
-
 divided the website code by repetitive sections:
 head, google analytics, header, portfolio-last-p, footer, js (javascript/JQuery links)
 
@@ -16,6 +14,9 @@ page - used for pages such as About, Contact, etc.
 
 
 # TO DO:
+
+Look into deployin with TRAVIS
+(https://mademistakes.com/faqs/website-tools/)
 
 finish content for portfolio pages
 
