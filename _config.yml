@@ -5,7 +5,6 @@ destination         : _site/
 title               : Sebastian Kulig - Front-end Developer and Web Designer
 description         : Responsive and mobile-friendly website design for you and your business. Based in Castlebar, Co. Mayo, Ireland
 locale              : en_IE
-encoding            : utf-8
 baseurl             : "" # the subpath of your site, e.g. /blog ++remove++
 url                 : "http://www.sebastiankulig.com"
 
