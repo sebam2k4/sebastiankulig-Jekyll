@@ -17,6 +17,8 @@ Basic _config.yml configuration completed
 
 # TO DO:
 
+Change all .html pages to .md and move as much html to _layouts
+
 Add Web Development courses' progress from my [Repo](https://github.com/sebam2k4/Web-Development-Curriculum)
 
 Add this page to portfolio
