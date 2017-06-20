@@ -1,5 +1,3 @@
-/* instead of using button tag and the wrapping it in a, use just a role="button". Adjust CSS and HTML for this change (current way is not compliant) */
-
 main,
 article,
 aside,
@@ -413,7 +411,16 @@ a#view-portfolio:hover {
 
 
 
-/* BUTTON */
+/* FULL WIDTH BUTTON */
+
+a.fullwidth {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+    padding-top: 1rem;
+    padding-bottom: .8rem;
+		display: block;
+}
 
 button.more {
     cursor: pointer;
@@ -423,8 +430,6 @@ button.more {
     text-transform: uppercase;
     text-align: center;
     width: 100%;
-    padding-top: 1rem;
-    padding-bottom: .8rem;
     color: white;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
