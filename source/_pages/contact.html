@@ -2,43 +2,33 @@
 layout: page
 title: Contact Sebastian - Front-end Developer and Web Designer
 description: Contact me with any general enquiries, suggestions, or anything else. PS. I love collaborating on different projects.
+heading_main_text: Contact
+heading_sub_text: General enquiry
 permalink: /contact/
 ---
 
-<main id="pages">
-        <article>
-            <header class="intro">
-                <h1>Contact</h1>
-                <h2>General enquiry</h2>
-            </header>
             
-            {% include button.html relative_url="/hire-sebastian/" title="Enquire about hiring me for your project" text="Project enquiry?" %}
-            
-            <div class="content">
-                <p>Please fill out the form below for general enquiries.</p>
-                <p class="note">Required fields are followed by <strong>*</strong></p>
-                <form name="sendMessage" id="contactForm" action="{{ site.url }}/contact.php" method="post">
-                    <h2>Your Details </h2>
+{% include button.html relative_url="/hire-sebastian/" title="Enquire about hiring me for your project" text="Project enquiry?" %}
 
-                    <p>
-                    <label for="name">Your name <strong>*</strong></label>
-                    <input id="name" name="name" type="text" placeholder="eg. Sebastian Kulig" autocomplete="off" required>
-                    </p>
+<div class="content">
+  <p>Please fill out the form below for general enquiries.</p>
+  
+  <p class="note">Required fields are followed by <strong>*</strong></p>
+  
+  <form name="sendMessage" id="contactForm" action="{{ site.url }}/contact.php" method="post">
+    <h2>Your Details </h2>
+    
+    <p><label for="name">Your name <strong>*</strong></label>
+    <input id="name" name="name" type="text" placeholder="eg. Sebastian Kulig" autocomplete="off" required></p>
 
-                    <p><label for="email">Email address <strong>*</strong></label><input id="email" name="_replyto" type="email" placeholder="eg. info@gmail.com" autocomplete="off" required></p>
+    <p><label for="email">Email address <strong>*</strong></label><input id="email" name="_replyto" type="email" placeholder="eg. info@gmail.com" autocomplete="off" required></p>
 
-                    <p><label for="phone">Phone Number</label><input id="phone" name="phone" type="text" placeholder="eg. +353 (0)86 8814964" autocomplete="off"></p>
+    <p><label for="phone">Phone Number</label><input id="phone" name="phone" type="text" placeholder="eg. +353 (0)86 8814964" autocomplete="off"></p>
 
-                    <p><label for="message">Your Message <strong>*</strong></label><textarea id="message" name="message" cols="40" rows="10" required></textarea>
-                    </p>
-                    
-                       <div class="button-submit">
-                        <input type="submit" value="Send">
-                    </div>
+    <p><label for="message">Your Message <strong>*</strong></label><textarea id="message" name="message" cols="40" rows="10" required></textarea></p>
 
-                </form>
-            </div>
-        </article>
-
-
-    </main>
+    <div class="button-submit">
+      <input type="submit" value="Send">
+    </div>
+  </form>
+</div>
