@@ -11,9 +11,9 @@ permalink: /about/
                 <h1>About Sebastian</h1>
                 <h2>Learn more about me and my skills</h2>
             </header>
-            <a href="{{ site.url }}/hire-sebastian/" title="Enquire about hiring me for your project"><button class="more">Available to work on your project <i class="fa fa-chevron-right"></i></button></a>
+            
+          {% include button.html relative_url="/hire-sebastian/" title="Enquire about hiring me for your project" text="Available to work on your project" %}
          
-           
             <div class="content">
                 <img id="self" src="{{ site.url }}/assets/img/Sebastian-pic2.jpg" alt="">
                 <p>Ireland based Front-end Web Developer and designer specializing in creating high quality responsive websites. Always striving on gaining new experiences, delivering successful projects, and building long-lasting relationships with clients.</p>
@@ -51,8 +51,8 @@ permalink: /about/
                 <p id="conclusion">I'd love to help you build a professional, beautiful, and functional website that will fit your needs. Visit my <a href="{{ site.url }}/">portfolio</a> for samples of my work or <a href="{{ site.url }}/hire-sebastian/">tell me aobut your project.</a></p>
             </div>
             
+            {% include button.html relative_url="" title="View Web Design Portfolio" text="View Portfolio" %}
             
-            <a href="{{ site.url }}/" title="Explore my Front-end decelopment portfolio"><button class="more">My Portfolio <i class="fa fa-chevron-right"></i></button></a>
         </article>
     </main>
     
