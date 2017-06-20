@@ -6,7 +6,7 @@ heading_sub_text: Wordpress, HTML, CSS, Responsive
 permalink: /portfolio/currys-cake-angels/
 ---
 
-<p>Information about this project is coming soon... stay tuned.</p>
+Information about this project is coming soon... stay tuned.
 
 <div class="button-visit-website">
   <a href="http://www.curryscakeangels.com/" target="_blank" title="External link - visit www.curryscakeangels.com">Visit Website <i class="fa fa-external-link"></i></a>

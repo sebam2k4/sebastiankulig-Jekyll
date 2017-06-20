@@ -6,7 +6,7 @@ heading_sub_text: Wordpress, HTML, CSS, Responsive
 permalink: /portfolio/2k-carpentry/
 ---
 
-<p>Information about this project is coming soon... stay tuned.</p>
+Information about this project is coming soon... stay tuned.
 
 <div class="button-visit-website">
   <a href="http://2kcarpentry.com/" target="_blank" title="External link - visit www.2kcarpentry">Visit Website <i class="fa fa-external-link"></i></a>
