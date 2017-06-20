@@ -2,5 +2,12 @@
 layout: default
 ---
 
-
-{{ content }}
+<main id="pages">
+  <article>
+    <header class="intro">
+      <h1>{{ page.heading_main_text }}</h1>
+      <h2>{{ page.heading_sub_text }}</h2>
+    </header>
+    {{ content }}
+  </article>
+</main>

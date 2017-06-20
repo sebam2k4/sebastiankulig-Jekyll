@@ -2,7 +2,17 @@
 layout: default
 ---
 
-
-{{ content }}
+<main id="pages" class="portfolio-page">
+  <article>
+    <header class="intro">
+      <h1>{{ page.heading_main_text }}</h1>
+      <h2>{{ page.heading_sub_text }}</h2>
+    </header>
+    <div class="content">
+      {{ content }}
+      {% include portfolio-last-p.html %}
+    </div>
+  </article>
+</main>
 
 {% include button.html relative_url="/hire-sebastian/" title="Enquire about hiring me for you project" text="Hire me for your project" %}
