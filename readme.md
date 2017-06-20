@@ -12,8 +12,16 @@ Using two layouts:
 default - used for homepage and as main layout others are derived form
 page - used for pages such as About, Contact, etc.
 
+Basic _config.yml configuration completed
+
 
 # TO DO:
+
+Add Web Development courses' progress from my [Repo](https://github.com/sebam2k4/Web-Development-Curriculum)
+
+Add this page to portfolio
+
+Update some site content
 
 Note to self: Check this out
 (https://mademistakes.com/faqs/website-tools/)
@@ -26,13 +34,15 @@ set up better includes and work on getting this look more like a Jekyll Theme wi
 
 make buttons as includes
 
-move anchol link tags inside button tags
+move anchor link tags inside button tags - html validation
 
 look at liquid
 
 look at Jekyll Documentation
 
 how to intergate this with github and push updates to external host: register365
+
+Start a blog
 
 learn learn learn....
 
