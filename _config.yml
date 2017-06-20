@@ -1,32 +1,30 @@
-source: source/
-destination: _site/
+# Site Configuration
+source              : source/
+destination         : _site/
 
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title               : Sebastian Kulig - Front-end Developer and Web Designer
+description         : Responsive and mobile-friendly website design for you and your business. Based in Castlebar, Co. Mayo, Ireland
+locale              : en_IE
+baseurl             : "" # the subpath of your site, e.g. /blog ++remove++
+url                 : "http://www.sebastiankulig.com"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Sebastian Kulig - Front-end Developer and Web Designer
-email: info@sebastiankulig.com
-description: Responsive and mobile-friendly website design for you and your business. Based in Castlebar, Co. Mayo, Ireland
-baseurl: "" # the subpath of your site, e.g. /blog ++remove++
-url: "http://www.sebastiankulig.com" # the base hostname & protocol for your site, e.g. http://example.com ++change to http://www.sebastiankulig.com for production deployment++
-twitter_username: sebam2k4
-github_username:  sebam2k4
+# Site Owner
+owner:
+  github_username     : sebam2k4
+  github_repository   : "sebam2k4/sebastiankulig-Jekyll"
+  google_analytics    : UA-80489929-2
+  twitter_username    : sebam2k4
+  codepen_username    : sebam2k4
+  instagram_username  : seb_skdesign
+  name                : Sebastian Kulig
+  email               : info@sebastiankulig.com
+  linkedin_username   :
+  flickr_username     :
+  facebook_username   :
 
 # Build settings
 markdown: kramdown
-# theme: minima
+
 keep_files:
   - .git
 
@@ -40,4 +38,8 @@ include:
   - _pages
   - contact.php
 
- 
+ # Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
