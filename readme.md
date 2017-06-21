@@ -1,30 +1,29 @@
-Sebastian Kulig personal website ([www.sebastiankulig.com](http://www.sebastiankulig.com))
+([www.sebastiankulig.com](http://www.sebastiankulig.com)) is a personal website and portfolio of my web design and development projects. It is being developed using Jekyll.
 
-# v0.2.0
+[Jekyll](https://jekyllrb.com/) is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by a web server. 
 
-Jekyll website in development. (converting from a static pure html, css, javascript website)
+## Table of Contents
 
-Converted portfolio pages from .html to markdown .md files for jekyll
+1. [Latest Release Notes](#v030)
+2. [To Do](#to-do)
+3. [Development Instructions](#development-instructions)
+4. [Notes](#notes)
 
-fullwidth buttons are now used as includes
+## v0.3.0
 
-Using three layouts:
-default - used for homepage and as main layout - other layouts are derrived form it.
-page - used for pages such as About, Contact, etc.
-portfolio - used for work portfolio items/projects.
+* Changed some content
+* Added Course progression (Education) Page
+* Using three layouts:
+  1. default - used for homepage and as main layout - other layouts are derrived form it.
+  2. page - used for pages such as About, Contact, etc.
+  3. portfolio - used for work portfolio items/projects.
 
-Basic _config.yml configuration completed
+## To Do:
 
-# TO DO:
-
-Change all .html pages to .md and move as much html to _layouts
-
-* Add Web Development courses' progress from my [Repo](https://github.com/sebam2k4/Web-Development-Curriculum)
-* Add this website and to the portfolio
-* Change pages to .md and convert as much html to markdown as possible. Use layouts for repeating html.
+* Change all .html pages to .md and move as much html to _layouts
+* Add this website as portfolio-item
+* Change pages to .md and convert as much html to markdown as possible. Use layouts for templating in liquid.
 * Consider creating a home layout.
-* Update some site content
-* Create a How to run this on local machine HOW-TO on this readme
 * finish content for portfolio pages
 * set up better includes and work on getting this look more like a Jekyll Theme with front-matter
 * look at liquid
@@ -34,3 +33,21 @@ Change all .html pages to .md and move as much html to _layouts
 * how to intergate this with github and push updates to external host: register365?
 * Start a blog
 * learn learn learn....
+
+## Development Instructions
+
+To set up your environment to develop this website:
+1. Clone this repo
+2. run `bundle install` from the root folder of the repo (where _config.yml file is).
+
+To test the website locally as you make changes to it:
+1. Run `bundle exec jekyll serve` from the root folder of the repo and open your browser to `http://localhost:4000/`. 
+
+This starts a Jekyll server using the website's files and contents. Refresh your browser as modifications are made to see any changes.
+
+For more information about Jekyll and how it works, check out [Jekyll's Documentation](https://jekyllrb.com/)
+
+## Notes
+1. Please feel free to fork/clone to play around with the code or develop your own project.
+2. This project will most likely develop into a full Jekyll theme in the future.
+3. Please don't use any of my content: text and pictures.

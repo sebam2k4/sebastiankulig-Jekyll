@@ -631,9 +631,10 @@ blockquote footer.quote {
     line-height: 1.4;
     font-size: .875em;
     letter-spacing: 1px;
+    margin-bottom: 1em;
 }
 
-#footer-page p snap {
+#footer-page p span {
     color: white;
 }
 
@@ -767,6 +768,15 @@ article {
 
 .content a:hover {
     color: #7ABCEE;
+}
+
+.content h2 a {
+    color: #7ABCEE;
+}
+
+.content h2 a:hover {
+    color: #7ABCEE;
+    text-decoration: underline;
 }
 
 .content p.note {
