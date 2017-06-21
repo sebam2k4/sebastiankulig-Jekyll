@@ -26,8 +26,8 @@ Basic _config.yml configuration completed
 
 ## To Do:
 
-Change all .html pages to .md and move as much html to _layouts
-
+* fixed kramdown formatting on curriculum page. Need to use HTML-code for special characters - fix this! 
+* Change all .html pages to .md and move as much html to _layouts
 * Add Web Development courses' progress from my [Repo](https://github.com/sebam2k4/Web-Development-Curriculum)
 * Add this website and to the portfolio
 * Change pages to .md and convert as much html to markdown as possible. Use layouts for repeating html.
