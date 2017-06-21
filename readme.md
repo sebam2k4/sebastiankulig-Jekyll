@@ -4,25 +4,19 @@
 
 ## Table of Contents
 
-1. [Latest Release Notes](#v020)
+1. [Latest Release Notes](#v030)
 2. [To Do](#to-do)
 3. [Development Instructions](#development-instructions)
 4. [Notes](#notes)
 
-## v0.2.0
+## v0.3.0
 
-Jekyll website in development. (converting from a static pure html, css, javascript website)
-
-Converted portfolio pages from .html to markdown .md files for jekyll
-
-fullwidth buttons are now used as includes
-
-Using three layouts:
-default - used for homepage and as main layout - other layouts are derrived form it.
-page - used for pages such as About, Contact, etc.
-portfolio - used for work portfolio items/projects.
-
-Basic _config.yml configuration completed
+* Changed some pages content
+* Added Curriculum Page
+* Using three layouts:
+  1. default - used for homepage and as main layout - other layouts are derrived form it.
+  2. page - used for pages such as About, Contact, etc.
+  3. portfolio - used for work portfolio items/projects.
 
 ## To Do:
 
