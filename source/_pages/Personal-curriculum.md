@@ -15,7 +15,7 @@ A (slimmed-down) list of online courses and other resources helping me in becomi
 
 This list is being maintained on [GitHub](https://github.com/sebam2k4/Web-Development-Curriculum "Visit my Personal Curriculum Repository on GitHub"){:target="_blank"}, where you can find a more comprehensive list of my progression through variuos web development and coding courses and links to some more projects.
 
-## [Codecademy](/Codecademy/ "View projects and detailed info")
+## [Codecademy](https://github.com/sebam2k4/Web-Development-Curriculum/tree/master/Codecademy "View projects and detailed info")
 
 * Learn HTML &amp; CSS Part 1 ==> COMPLETED - 03/2017
 * Make a Website ==> COMPLETED - 03/2017
@@ -37,14 +37,14 @@ This list is being maintained on [GitHub](https://github.com/sebam2k4/Web-Develo
 * HTML5 Part 2: Advanced Techniques for Designing HTML5 Apps - W3Cx-HTML5.2x ==> COMPLETED - 08/2016
 * CSS Introduction - W3Cx-CSS.0x ==> COMPLETED - 12/2016
 
-## [Udemy](/Udemy/ "View projects and detailed info")
+## [Udemy](https://github.com/sebam2k4/Web-Development-Curriculum/tree/master/Udemy "View projects and detailed info")
 
 * The Complete Web Developer Bootcamp - Beginner to Expert - Robeen Dey ==> IN PROGRESS
 * The Complete Web Developer Course 2.0 - Rob Percival ==> IN PROGRESS
 * CompTIA A+ Certification 901. The Total Course - Mike Meyers ==> COMPLETED - 22/03/2017
 * CompTIA A+ Certification 902. The Total Course - Mike Meyers ==> COMPLETED - 28/04/2017
 
-## [eCollege.ie](/eCollege/ "View detailed info")
+## [eCollege.ie](https://github.com/sebam2k4/Web-Development-Curriculum/tree/master/eCollege "View detailed info")
 
 * CompTIA A+ 900 Series ==> COMPLETED - 9/06/2017
 
