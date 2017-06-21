@@ -11,8 +11,8 @@
 
 ## v0.3.0
 
-* Changed some pages content
-* Added Curriculum Page
+* Changed some content
+* Added Course progression (Education) Page
 * Using three layouts:
   1. default - used for homepage and as main layout - other layouts are derrived form it.
   2. page - used for pages such as About, Contact, etc.
@@ -20,14 +20,10 @@
 
 ## To Do:
 
-* fixed kramdown formatting on curriculum page. Need to use HTML-code for special characters - fix this! 
 * Change all .html pages to .md and move as much html to _layouts
-* Add Web Development courses' progress from my [Repo](https://github.com/sebam2k4/Web-Development-Curriculum)
-* Add this website and to the portfolio
-* Change pages to .md and convert as much html to markdown as possible. Use layouts for repeating html.
+* Add this website as portfolio-item
+* Change pages to .md and convert as much html to markdown as possible. Use layouts for templating in liquid.
 * Consider creating a home layout.
-* Update some site content
-* Create a How to run this on local machine HOW-TO on this readme
 * finish content for portfolio pages
 * set up better includes and work on getting this look more like a Jekyll Theme with front-matter
 * look at liquid
