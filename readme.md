@@ -1,6 +1,12 @@
 Sebastian Kulig personal website ([www.sebastiankulig.com](http://www.sebastiankulig.com))
 
-# v0.2.0
+## Table of Contents
+
+1. [Latest Release Notes](#v0.2.0)
+2. [To Do](#to-do)
+3. [Development Instructions](#development-instructions)
+
+## v0.2.0
 
 Jekyll website in development. (converting from a static pure html, css, javascript website)
 
@@ -15,7 +21,7 @@ portfolio - used for work portfolio items/projects.
 
 Basic _config.yml configuration completed
 
-# TO DO:
+## To Do:
 
 Change all .html pages to .md and move as much html to _layouts
 
@@ -34,3 +40,19 @@ Change all .html pages to .md and move as much html to _layouts
 * how to intergate this with github and push updates to external host: register365?
 * Start a blog
 * learn learn learn....
+
+## Development Instructions
+
+To set up your environment to develop this theme:
+1. Clone this repo
+2. run `bundle install` from the root folder of the repo (where _config.yml file is).
+
+To test the website locally as you make changes to it:
+1. Run `bundle exec jekyll serve` from the root folder of the repo and open your browser to `http://localhost:4000/`. 
+
+This starts a Jekyll server using the website's files and contents. Refresh your browser as modifications are made to see any changes.
+
+## NOTE
+1. Plese feel free to fork/clone to play around with the code or develop your own project.
+2. This project will most likely develop into a full Jekyll theme in the future.
+3. Please don't use any of my content: text and pictures.
