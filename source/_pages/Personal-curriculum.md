@@ -9,11 +9,11 @@ permalink: /personal-curriculum/
 
 <div class="content" markdown="1">
 
-# Personal Full Stack Web Development Course Progression List
+# Personal Full Stack Web Development Course Progression
 
-A list of online courses and other resources helping me in becoming a Full-Stack Web Developer.
+A (slimmed-down) list of online courses and other resources helping me in becoming a Full-Stack Web Developer.
 
-You will also find links to some completed projects.
+This list is being maintained on [GitHub](https://github.com/sebam2k4/Web-Development-Curriculum "Visit my Personal Curriculum Repository on GitHub"){:target="_blank"}, where you can find a more comprehensive list of my progression through variuos web development and coding courses and links to some more projects.
 
 ## [Codecademy](/Codecademy/ "View projects and detailed info")
 
@@ -35,12 +35,12 @@ You will also find links to some completed projects.
 * HTML5 Introduction - W3Cx-HTML5.0x ==> COMPLETED - 5/2016
 * HTML5 Part 1: HTML5 Coding Essentials and Best Practices - W3Cx-HTML5.1x ==> COMPLETED - 07/2016
 * HTML5 Part 2: Advanced Techniques for Designing HTML5 Apps - W3Cx-HTML5.2x ==> COMPLETED - 08/2016
-* CSS Introduction - W3Cx-CSS.0x ==> COMPLETED | 12/2016
+* CSS Introduction - W3Cx-CSS.0x ==> COMPLETED - 12/2016
 
 ## [Udemy](/Udemy/ "View projects and detailed info")
 
 * The Complete Web Developer Bootcamp - Beginner to Expert - Robeen Dey ==> IN PROGRESS
-* The Complete Web Developer Course 2.0 | Rob Percival ==> IN PROGRESS
+* The Complete Web Developer Course 2.0 - Rob Percival ==> IN PROGRESS
 * CompTIA A+ Certification 901. The Total Course - Mike Meyers ==> COMPLETED - 22/03/2017
 * CompTIA A+ Certification 902. The Total Course - Mike Meyers ==> COMPLETED - 28/04/2017
 
