@@ -1,10 +1,13 @@
-Sebastian Kulig personal website ([www.sebastiankulig.com](http://www.sebastiankulig.com))
+([www.sebastiankulig.com](http://www.sebastiankulig.com)) is a personal website and portfolio of my web design and development projects being developed using Jekyll.
+
+[Jekyll](https://jekyllrb.com/) is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by a web server. 
 
 ## Table of Contents
 
-1. [Latest Release Notes](#v0.2.0)
+1. [Latest Release Notes](#v020)
 2. [To Do](#to-do)
 3. [Development Instructions](#development-instructions)
+4. [Notes](#notes)
 
 ## v0.2.0
 
@@ -43,7 +46,7 @@ Change all .html pages to .md and move as much html to _layouts
 
 ## Development Instructions
 
-To set up your environment to develop this theme:
+To set up your environment to develop this website:
 1. Clone this repo
 2. run `bundle install` from the root folder of the repo (where _config.yml file is).
 
@@ -52,7 +55,9 @@ To test the website locally as you make changes to it:
 
 This starts a Jekyll server using the website's files and contents. Refresh your browser as modifications are made to see any changes.
 
-## NOTE
-1. Plese feel free to fork/clone to play around with the code or develop your own project.
+For more information about Jekyll and how it works, check out [Jekyll's Documentation](https://jekyllrb.com/)
+
+## Notes
+1. Please feel free to fork/clone to play around with the code or develop your own project.
 2. This project will most likely develop into a full Jekyll theme in the future.
 3. Please don't use any of my content: text and pictures.
