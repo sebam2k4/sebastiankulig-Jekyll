@@ -2,7 +2,7 @@
 source              : source/
 destination         : _site/
 
-title               : Sebastian Kulig - Front-end Developer and Web Designer
+title               : Sebastian Kulig - On a journey becoming a Full-Stack web developer
 description         : Responsive and mobile-friendly website design for you and your business. Based in Castlebar, Co. Mayo, Ireland
 locale              : en_IE
 baseurl             : "" # the subpath of your site, e.g. /blog ++remove++
