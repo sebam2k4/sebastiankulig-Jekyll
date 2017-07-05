@@ -1,4 +1,7 @@
 /* Drop down mobile nav */
+
+// convert this to pure JavaScript
+// then remove jQuery link as it won't be needed anymore.
 $(document).ready(function () {
     $('body').addClass('js');
 
