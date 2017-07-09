@@ -4,10 +4,13 @@
 
 ## Table of Contents
 
-1. [Latest Release Notes](#v030)
+1. [Latest Release Notes](#v040)
 2. [To Do](#to-do)
 3. [Development Instructions](#development-instructions)
 4. [Notes](#notes)
+
+## v0.4.0
+* converted thanks page to markdown
 
 ## v0.3.0
 
