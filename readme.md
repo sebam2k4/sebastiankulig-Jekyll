@@ -30,7 +30,7 @@
 * look at Jekyll Documentation
 * Research a deployment method.
 * Note to self: Check this out (https://mademistakes.com/faqs/website-tools/)
-* how to intergate this with github and push updates to external host: register365?
+* setup TravisCI and deploy to [Surge](https://surge.sh/tour)
 * Start a blog
 * learn learn learn....
 
