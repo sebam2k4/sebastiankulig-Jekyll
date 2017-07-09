@@ -5,8 +5,8 @@ layout: default
 <main id="pages">
   <article>
     <header class="intro">
-      <h1>{{ page.heading_main_text }}</h1>
-      <h2>{{ page.heading_sub_text }}</h2>
+      <h1>{% if page.heading_text %}{{ page.heading_text }}{% else %}{{ page.title }}{% endif %}</h1>
+      <h2>{% if page.subheading_text %}{{ page.subheading_text}}{% else %}{{page.description}}{% endif %}</h2>
     </header>
     {{ content }}
   </article>

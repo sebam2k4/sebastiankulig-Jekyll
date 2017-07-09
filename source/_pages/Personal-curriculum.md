@@ -2,8 +2,8 @@
 layout: page
 title: Personal Curriculum - Becoming a Full Stack Web Developer
 description: Practice makes perfect
-heading_main_text: Personal Curriculum
-heading_sub_text: Practice makes perfect
+heading_text: Personal Curriculum
+subheading_text: Practice makes perfect
 permalink: /personal-curriculum/
 ---
 

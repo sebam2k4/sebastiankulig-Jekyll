@@ -2,8 +2,8 @@
 layout: page
 title: Hire Sebastian - Front-end Developer and Web Designer
 description: Enquire about hiring me for your project. I'm here to help you make it a reality.
-heading_main_text: Hire Sebastian
-heading_sub_text: Let's talk about your project
+heading_text: Hire Sebastian
+subheading_text: Let's talk about your project
 permalink: /hire-sebastian/
 ---
         

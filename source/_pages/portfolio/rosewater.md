@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 title: Rosewater | Sebastian Kulig - Front-end Developer and Web Designer
-heading_main_text: Rosewater
-heading_sub_text: Shopify, HTML, CSS, Responsive, Graphic Design
+heading_text: Rosewater
+subheading_text: Shopify, HTML, CSS, Responsive, Graphic Design
 permalink: /portfolio/rosewater/
 ---
 
