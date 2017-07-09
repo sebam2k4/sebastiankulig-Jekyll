@@ -34,6 +34,7 @@
 * Research a deployment method.
 * Note to self: Check this out (https://mademistakes.com/faqs/website-tools/)
 * setup TravisCI and deploy to [Surge](https://surge.sh/tour)
+* find an alternative to contact.php for static pages
 * Start a blog
 * learn learn learn....
 
