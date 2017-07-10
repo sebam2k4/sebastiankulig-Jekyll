@@ -23,7 +23,7 @@
 
 ## To Do:
 
-* Change all .html pages to .md and move as much html to _layouts
+* Remove all html from md - use only markdon and liquid inside of pages.
 * Add this website as portfolio-item
 * Change pages to .md and convert as much html to markdown as possible. Use layouts for templating in liquid.
 * Consider creating a home layout.
@@ -53,5 +53,5 @@ For more information about Jekyll and how it works, check out [Jekyll's Document
 
 ## Notes
 1. Please feel free to fork/clone to play around with the code or develop your own project.
-2. This project will most likely develop into a full Jekyll theme in the future.
+2. This project will most likely develop into a full Jekyll theme in the future for anyone to use.
 3. Please don't use any of my content: text and pictures.
