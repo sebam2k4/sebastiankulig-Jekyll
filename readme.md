@@ -11,6 +11,8 @@
 
 ## v0.4.0
 * converted thanks page to markdown
+* contact forms are now includes
+* added contact form liquid logic to page layout
 
 ## v0.3.0
 
@@ -23,6 +25,7 @@
 
 ## To Do:
 
+* add button variable to pages and create logic on main page.
 * Remove all html from md - use only markdon and liquid inside of pages.
 * Add this website as portfolio-item
 * Change pages to .md and convert as much html to markdown as possible. Use layouts for templating in liquid.
