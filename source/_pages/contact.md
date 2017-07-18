@@ -13,5 +13,5 @@ contact-form: contact
 
 
 Please fill out the form below for general enquiries.
-Required fields are followed by <strong>*</strong>
+Required fields are followed by __*__
 

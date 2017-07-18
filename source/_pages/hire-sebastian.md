@@ -20,6 +20,6 @@ contact-form: hire-sebastian
   
   After you submit this form, I'll be happy to call you to discuss how we can work together.
   
-  Required fields are followed by <strong>*</strong>
+  Required fields are followed by __*__
   
 
