@@ -6,7 +6,6 @@ heading_text: Hire Sebastian
 subheading_text: Let's talk about your project
 permalink: /hire-sebastian/
 contact-form: hire-sebastian
-contact_variable: hire-sebastian-form.html
 
 ---
         
