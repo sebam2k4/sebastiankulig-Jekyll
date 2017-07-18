@@ -1,5 +1,6 @@
 ---
 layout: page
+type: basic
 title: Thank You for contacting Sebastian - Front-end Developer and Web Designer
 heading_text: Thank You
 subheading_text: I'll get back to you shortly

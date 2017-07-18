@@ -1,5 +1,6 @@
 ---
 layout: page
+type: basic
 title: Personal Curriculum - Becoming a Full Stack Web Developer
 description: Practice makes perfect
 heading_text: Personal Curriculum
