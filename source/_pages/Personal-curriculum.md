@@ -15,6 +15,4 @@ Personal Full Stack Web Development Course Progression
 The following is a list of online courses and other resources helping me in becoming a Full-Stack Web Developer.
 
 View it on [GitHub](https://github.com/sebam2k4/Web-Development-Curriculum "Visit my Personal Curriculum Repository on GitHub")
-
-{% include button.html relative_url="" title="View Web Design Portfolio" text="View Portfolio" %}
  
