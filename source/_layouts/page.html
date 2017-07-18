@@ -9,12 +9,12 @@ layout: default
       <h2>{% if page.subheading_text %}{{ page.subheading_text}}{% else %}{{page.description}}{% endif %}</h2>
     </header>
     <div class="content">
-    {{ content }}
-    {% if page.contact-form == "contact" %}
-      {% include contact-form.html %}
-    {% elsif page.contact-form == "hire-sebastian" %}
-      {% include hire-sebastian-form.html %}
-    {% endif %}
+      {{ content }}
+      {% if page.contact-form == "contact" %}
+        {% include contact-form.html %}
+      {% elsif page.contact-form == "hire-sebastian" %}
+        {% include hire-sebastian-form.html %}
+      {% endif %}
     </div>
   </article>
 </main>
