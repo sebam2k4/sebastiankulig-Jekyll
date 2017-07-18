@@ -4,6 +4,8 @@ title: 2K Carpentry | Sebastian Kulig - Front-end Developer and Web Designer
 heading_text: 2k Carpentry
 subheading_text: Wordpress, HTML, CSS, Responsive
 permalink: /portfolio/2k-carpentry/
+button-top:
+button-bottom: hire
 ---
 
 Information about this project is coming soon... stay tuned.

@@ -4,6 +4,8 @@ title: Curry's Cake Angels | Sebastian Kulig - Front-end Developer and Web Desig
 heading_text: Curry's Cake Angels
 subheading_text: Wordpress, HTML, CSS, Responsive
 permalink: /portfolio/currys-cake-angels/
+button-top:
+button-bottom: hire
 ---
 
 Information about this project is coming soon... stay tuned.

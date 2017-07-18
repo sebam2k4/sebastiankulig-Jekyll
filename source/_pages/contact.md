@@ -6,6 +6,8 @@ heading_text: Contact
 subheading_text: General enquiry
 permalink: /contact/
 contact-form: contact
+button-top: hire
+button-bottom:
 ---
 
             
