@@ -1,11 +1,12 @@
 ---
-layout: portfolio
+layout: page
+type: portfolio
 title: Rosewater | Sebastian Kulig - Front-end Developer and Web Designer
 heading_text: Rosewater
 subheading_text: Shopify, HTML, CSS, Responsive, Graphic Design
 permalink: /portfolio/rosewater/
 button-top:
-button-bottom: hire
+button-bottom: hire-portfolio
 ---
 
 <img src="{{ site.url }}/assets/img/portfolio-rosewater-preview.png" alt="West Coast Kitchen on large desktop and small mobile devices">
