@@ -5,9 +5,21 @@ layout: default
 <main id="pages">
   <article>
     <header class="intro">
-      <h1>{{ page.heading_main_text }}</h1>
-      <h2>{{ page.heading_sub_text }}</h2>
+      <h1>{% if page.heading_text %}{{ page.heading_text }}{% else %}{{ page.title }}{% endif %}</h1>
+      <h2>{% if page.subheading_text %}{{ page.subheading_text}}{% else %}{{page.description}}{% endif %}</h2>
     </header>
-    {{ content }}
+    {% include button-top.html %}
+    <div class="content {% if page.type == "about" %}about{% elsif page.type == "portfolio" %}portfolio-page{% endif %}">
+      {{ content }}
+      {% if page.contact-form == "contact" %}
+        {% include contact-form.html %}
+      {% elsif page.contact-form == "hire-sebastian" %}
+        {% include hire-sebastian-form.html %}
+      {% endif %}
+      {% if page.type == "portfolio" or page.type == "about" %}
+        {% include portfolio-last-p.html %}
+      {% endif %}
+    </div>
+    {% include button-bottom.html %}
   </article>
 </main>

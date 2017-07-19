@@ -1,0 +1,16 @@
+<form name="sendMessage" id="contactForm" action="{{ site.url }}/contact.php" method="post">
+  <h2>Your Details </h2>
+
+  <p><label for="name">Your name <strong>*</strong></label>
+  <input id="name" name="name" type="text" placeholder="eg. Sebastian Kulig" autocomplete="off" required></p>
+
+  <p><label for="email">Email address <strong>*</strong></label><input id="email" name="_replyto" type="email" placeholder="eg. info@gmail.com" autocomplete="off" required></p>
+
+  <p><label for="phone">Phone Number</label><input id="phone" name="phone" type="text" placeholder="eg. +353 (0)86 1234567" autocomplete="off"></p>
+
+  <p><label for="message">Your Message <strong>*</strong></label><textarea id="message" name="message" cols="40" rows="10" required></textarea></p>
+
+  <div class="button-submit">
+    <input type="submit" value="Send">
+  </div>
+</form>

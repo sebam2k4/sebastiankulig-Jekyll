@@ -1,10 +1,13 @@
 ---
-layout: portfolio
+layout: page
+type: portfolio
 title: West Coast Kitchen | Sebastian Kulig - Front-end Developer and Web Designer
 description: South African food and textile products retailer. I Created an eCommerce solution based on the popular Shopify platform with custom-added functionality.
-heading_main_text: West Coast Kitchen
-heading_sub_text: Shopify, HTML, CSS, Responsive
+heading_text: West Coast Kitchen
+subheading_text: Shopify, HTML, CSS, Responsive
 permalink: /portfolio/west-coast-kitchen/
+button-top:
+button-bottom: hire-portfolio
 ---
           
 <img src="{{ site.url }}/assets/img/portfolio-west-coast-kitchen-preview.png" alt="West Coast Kitchen on large desktop and small mobile devices">
