@@ -9,7 +9,7 @@ layout: default
       <h2>{% if page.subheading_text %}{{ page.subheading_text}}{% else %}{{page.description}}{% endif %}</h2>
     </header>
     {% include button-top.html %}
-    <div class="content">
+    <div class="content {% if page.type == "about" %}about{% elsif page.type == "portfolio" %}portfolio-page{% endif %}">
       {{ content }}
       {% if page.contact-form == "contact" %}
         {% include contact-form.html %}
