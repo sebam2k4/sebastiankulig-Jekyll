@@ -10,31 +10,22 @@
 4. [Notes](#notes)
 
 ## v0.4.0
-* converted thanks page to markdown
-* contact forms are now includes
-* added contact form liquid logic to page layout
-
-## v0.3.0
-
-* Changed some content
-* Added Course progression (Education) Page
-* Using three layouts:
-  1. default - used for homepage and as main layout - other layouts are derrived form it.
-  2. page - used for pages such as About, Contact, etc.
-  3. portfolio - used for work portfolio items/projects.
+* Converted thanks page to markdown
+* Contact forms are now includes
+* Added contact form liquid logic to page layout
+* Now using button-top and button-bottom variables for button position and type
+* Mostly everything now in markdown except home.html and some parts of portfolio items
+* Minor tweaks to homepage content
 
 ## To Do:
 
-* add button variable to pages and create logic on main page.
 * Remove all html from md - use only markdon and liquid inside of pages.
 * Add this website as portfolio-item
-* Change pages to .md and convert as much html to markdown as possible. Use layouts for templating in liquid.
 * Consider creating a home layout.
 * finish content for portfolio pages
 * set up better includes and work on getting this look more like a Jekyll Theme with front-matter
 * look at liquid
 * look at Jekyll Documentation
-* Research a deployment method.
 * Note to self: Check this out (https://mademistakes.com/faqs/website-tools/)
 * setup TravisCI and deploy to [Surge](https://surge.sh/tour)
 * find an alternative to contact.php for static pages
