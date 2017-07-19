@@ -914,7 +914,7 @@ input[type="submit"]:hover {
     color: white;
 }
 
-.portfolio-page .content p {
+.portfolio-page p {
     margin-top: 2em;
 }
 
@@ -922,7 +922,7 @@ input[type="submit"]:hover {
 /*  ABOUT ME PAGE  */
 /*=================*/
 
-.content img#self {
+.about img {
     height: 110px;
     width: 110px;
     display: inline;
