@@ -6,7 +6,7 @@ heading_text: Curry's Cake Angels
 subheading_text: Wordpress, HTML, CSS, Responsive
 permalink: /portfolio/currys-cake-angels/
 button-top:
-button-bottom: hire-portfolio
+button-bottom: contact-portfolio
 ---
 
 Information about this project is coming soon... stay tuned.

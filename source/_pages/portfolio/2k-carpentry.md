@@ -6,7 +6,7 @@ heading_text: 2k Carpentry
 subheading_text: Wordpress, HTML, CSS, Responsive
 permalink: /portfolio/2k-carpentry/
 button-top:
-button-bottom: hire-portfolio
+button-bottom: contact-portfolio
 ---
 
 Information about this project is coming soon... stay tuned.

@@ -4,10 +4,13 @@
 
 ## Table of Contents
 
-1. [Latest Release Notes](#v040)
+1. [Latest Release Notes](#v050)
 2. [To Do](#to-do)
 3. [Development Instructions](#development-instructions)
 4. [Notes](#notes)
+
+## v0.5.0
+* Removed redundant 'general enquiry' contact form
 
 ## v0.4.0
 * Converted thanks page to markdown
