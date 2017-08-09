@@ -1,4 +1,4 @@
-([www.sebastiankulig.com](http://www.sebastiankulig.com)) is a personal website and portfolio of my web design and development projects. It is being developed using Jekyll.
+[www.sebastiankulig.com](http://www.sebastiankulig.com) is a personal website and portfolio of my web design and development projects. It is being developed using Jekyll.
 
 [Jekyll](https://jekyllrb.com/) is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by a web server. 
 
