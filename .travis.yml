@@ -4,7 +4,7 @@ rvm:
 - 2.3.1
 
 install: gem install jekyll html-proofer
-script: bundle install &&  jekyll build -v 3.5.1 && htmlproofer ./_site # use bundle exec jekyll build if probelm with dependancies and gem versions
+script: bundle install &&  jekyll build -v 3.5.1 # use bundle exec jekyll build if probelm with dependancies and gem versions
 
 env:
   global:
