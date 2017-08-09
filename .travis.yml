@@ -14,6 +14,6 @@ sudo: false # route your build to the container-based infrastructure for a faste
 
 deploy:
   provider: surge
-  project: _site
+  project: ./_site/
   domain: sebastiankulig.com
   skip_cleanup: true
