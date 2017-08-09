@@ -13,7 +13,6 @@
 
 ## v0.5.0
 * Changed deployment to [Surge.sh](www.surge.sh)
-* Set up Travis CI for auto deployment to surge.sh on 'git push origin master'
 * Removed redundant 'general enquiry' contact form
 
 ## To Do:
