@@ -51,3 +51,7 @@ _site/
 
 # Node
 node_modules/
+
+# bundled gems for this project
+.gems/
+.bundle/
