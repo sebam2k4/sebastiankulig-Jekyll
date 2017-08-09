@@ -10,15 +10,9 @@
 4. [Notes](#notes)
 
 ## v0.5.0
+* Changed deployment to [Surge.sh](www.surge.sh)
+* Set up Travis CI for auto deployment to surge.sh on 'git push origin master'
 * Removed redundant 'general enquiry' contact form
-
-## v0.4.0
-* Converted thanks page to markdown
-* Contact forms are now includes
-* Added contact form liquid logic to page layout
-* Now using button-top and button-bottom variables for button position and type
-* Mostly everything now in markdown except home.html and some parts of portfolio items
-* Minor tweaks to homepage content
 
 ## To Do:
 
@@ -30,7 +24,6 @@
 * look at liquid
 * look at Jekyll Documentation
 * Note to self: Check this out (https://mademistakes.com/faqs/website-tools/)
-* setup TravisCI and deploy to [Surge](https://surge.sh/tour)
 * find an alternative to contact.php for static pages
 * Start a blog
 * learn learn learn....
