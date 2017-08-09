@@ -3,17 +3,11 @@ language: ruby
 rvm:
 - 2.3.1
 
-install: gem install jekyll html-proofer
+install: gem install jekyll
 script: bundle install &&  jekyll build -v 3.5.1 # use bundle exec jekyll build if probelm with dependancies and gem versions
-
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
-sudo: false # route your build to the container-based infrastructure for a faster build
 
 deploy:
   provider: surge
-  project: ./_site/
+  project: _site
   domain: sebastiankulig.com
   skip_cleanup: true
