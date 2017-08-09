@@ -9,6 +9,6 @@ branches:
 deploy:
   provider: surge
   project: ./source/
-  domain: sebastiankulig.com
+  domain: www.sebastiankulig.com
   on:
     branch: master
