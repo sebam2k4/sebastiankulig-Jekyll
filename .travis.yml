@@ -2,5 +2,13 @@ language: node_js
 node_js:
   - "node"
 
-after_success:
-  -surge --project ./source/ --domain http://sebastiankulig.com
+branches:
+  only:
+    - master
+
+deploy:
+  provider: surge
+  project: ./source/
+  domain: sebastiankulig.com
+  on:
+    branch: master
