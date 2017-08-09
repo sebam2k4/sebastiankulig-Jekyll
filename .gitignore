@@ -48,3 +48,6 @@ Temporary Items
 
 # Built website
 _site/
+
+# Node
+node_modules/
