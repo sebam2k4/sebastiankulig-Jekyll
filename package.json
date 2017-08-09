@@ -1,0 +1,28 @@
+{
+  "name": "sebastiankulig-jekyll",
+  "version": "1.0.0",
+  "description": "Using Travis CI for continous deployment to Surge.",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebam2k4/sebastiankulig-Jekyll.git"
+  },
+  "keywords": [
+    "Jekyll",
+    "Web",
+    "Development",
+    "Portfolio"
+  ],
+  "author": "Sebastian Kulig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebam2k4/sebastiankulig-Jekyll/issues"
+  },
+  "homepage": "https://github.com/sebam2k4/sebastiankulig-Jekyll#readme",
+  "devDependencies": {
+    "surge": "^0.19.0"
+  }
+}

@@ -11,10 +11,8 @@ layout: default
     {% include button-top.html %}
     <div class="content {% if page.type == "about" %}about{% elsif page.type == "portfolio" %}portfolio-page{% endif %}">
       {{ content }}
-      {% if page.contact-form == "contact" %}
+      {% if page.permalink == "/hire-sebastian/" %}
         {% include contact-form.html %}
-      {% elsif page.contact-form == "hire-sebastian" %}
-        {% include hire-sebastian-form.html %}
       {% endif %}
       {% if page.type == "portfolio" or page.type == "about" %}
         {% include portfolio-last-p.html %}
