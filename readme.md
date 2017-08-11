@@ -11,6 +11,7 @@
 
 ## v0.6.0
 * Now using [Formspree](www.formspree.io) for contact form.
+* Removed 'Education' page
 
 ## v0.5.0
 * Changed deployment to [Surge.sh](www.surge.sh)
@@ -29,6 +30,7 @@
 * find an alternative to contact.php for static pages
 * Start a blog
 * learn learn learn....
+* Add CV
 
 ## Development Instructions
 
