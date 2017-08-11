@@ -1,13 +1,13 @@
-<form accept-charset="UTF-8" name="sendMessage" id="contactForm" action="{{ site.url }}/contact.php" method="post">
+<form accept-charset="UTF-8" name="sendMessage" id="contactForm" action="https://formspree.io/info@sebastiankulig.com" method="post">
   <h2>Your Details</h2>
 
   <p><label for="name">Your name <strong>*</strong></label>
-  <input id="name" name="name" type="text" placeholder="eg. Sebastian Kulig" autocomplete="off" required></p>
+  <input id="name" name="name" type="text" placeholder="eg. Sebastian Kulig" autocomplete="on" required></p>
 
   <p><label for="email">Email address <strong>*</strong></label>
-  <input id="email" name="_replyto" type="email" placeholder="eg. info@gmail.com" autocomplete="off" required></p>
+  <input id="email" name="_replyto" type="email" placeholder="eg. info@gmail.com" autocomplete="on" required></p>
 
-  <p><label for="phone">Phone Number</label><input id="phone" name="phone" type="text" placeholder="eg. +353 (0)86 8814964" autocomplete="off"></p>
+  <p><label for="phone">Phone Number</label><input id="phone" name="phone" type="number" placeholder="eg. +353 (0)86 8814964" autocomplete="off"></p>
 
   <p><label for="businessname">Company Name</label><input id="businessname" name="businessname" type="text" placeholder="eg. Your awesome company" autocomplete="off"></p>
 
@@ -17,6 +17,9 @@
 
   <p><label for="message">Briefly describe your project, what you aim to achieve, what you'd like me to do. <strong>*</strong></label><textarea id="message" name="message" cols="40" rows="10" required></textarea></p>
 
+  <input type="hidden" name="_next" value="{{ site.url }}/thanks/" />
+  <input type="hidden" name="_subject" value="SebastianKulig.com Contact Form" />
+  
   <div class="button-submit">
     <input type="submit" value="Send">
   </div>
