@@ -4,10 +4,13 @@
 
 ## Table of Contents
 
-1. [Latest Release Notes](#v050)
+1. [Latest Release Notes](#v060)
 2. [To Do](#to-do)
 3. [Development Instructions](#development-instructions)
 4. [Notes](#notes)
+
+## v0.6.0
+* Now using [Formspree](www.formspree.io) for contact form.
 
 ## v0.5.0
 * Changed deployment to [Surge.sh](www.surge.sh)
