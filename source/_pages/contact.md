@@ -11,8 +11,6 @@ button-bottom:
 
 ---
 
-Please note, this contact form is currently offline: please contact me using this email address: seb@sebastiankulig.com.
-
 Please fill out the form below to enquire about hiring me. I'd love to become part of a dynamic and talented team!
 
 I can also work as a freelancer and make you an awesome business or personal website.
