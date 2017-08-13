@@ -4,7 +4,7 @@ destination         : _site/
 
 title               : Sebastian Kulig - On a journey becoming a Full-Stack web developer
 description         : Responsive and mobile-friendly website design for you and your business. Based in Castlebar, Co. Mayo, Ireland
-locale              : en_IE
+locale              : en
 baseurl             : "" # the subpath of your site, e.g. /blog ++remove++
 url                 : "http://sebastiankulig.com"
 
