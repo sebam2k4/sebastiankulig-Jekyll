@@ -11,6 +11,7 @@
 
 ## v0.6.0
 * Now using [Formspree](www.formspree.io) for contact form.
+* Removed Travis CI as couldn't successfully build jekyll site
 * Removed 'Education' page
 
 ## v0.5.0
