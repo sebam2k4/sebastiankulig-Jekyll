@@ -36,7 +36,6 @@ exclude:
   
 include:
   - _pages
-  - contact.php
 
  # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
