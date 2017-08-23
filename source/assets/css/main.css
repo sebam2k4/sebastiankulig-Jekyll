@@ -22,11 +22,11 @@ section {
 }
 
 * {
-    box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     -o-box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -67,7 +67,6 @@ ul {
 section {
     padding-top: 0px;
     padding-bottom: 0px;
-
     margin: 0 auto;
 }
 
@@ -128,18 +127,14 @@ p {
 }
 
 .logo-name a:hover {
-    color: #1F303C;
-
-    
+    color: #81C6FB;
 }
 
-    @media only screen and (min-width: 768px) {
-
-        #header-page {
-        position: relative;
-        }
-
+@media only screen and (min-width: 768px) {
+    #header-page {
+    position: relative;
     }
+}
 
 
 /* NAVIGATION */
@@ -162,8 +157,6 @@ button#mobile-nav {
     transition: all 0.3s ease-out;
 }
 
-
-
 #main-nav {
     clear: both;
     display: none;
@@ -174,7 +167,6 @@ button#mobile-nav {
 .js #main-nav {
     overflow: hidden;
     max-height: 0;
-
 }
 
 #main-nav.active {
@@ -191,7 +183,6 @@ button#mobile-nav {
     margin: 0;
     padding: 0;
     border-top: 3px solid #466C88;
-    
 }
 
 #main-nav li {
@@ -203,8 +194,6 @@ button#mobile-nav {
     text-transform: uppercase;
     font-weight: 400;
     font-weight: 700;
-    
-
 }
 
 #main-nav ul li a {
@@ -216,7 +205,7 @@ button#mobile-nav {
 }
 
 #main-nav li a:hover {
-    color: #1F303C;
+    color: #81C6FB;
 }
 
 #main-nav ul li a.current {
@@ -224,50 +213,45 @@ button#mobile-nav {
     opacity: 1;
 }
 
-    @media screen and (min-width: 768px) {
-    
-        #header-page .container {
-        padding-top: 20px;
-        min-height: 80px;
+@media screen and (min-width: 768px) {
+    #header-page .container {
+    padding-top: 20px;
+    min-height: 80px;
     }
 
-        .logo-name {
+    .logo-name {
+    display: inline-block;
+    float: left;
+    padding: .8rem;
+    }
+
+    #mobile-nav {
+        display: none;
+    }
+    nav#main-nav {
         display: inline-block;
-        float: left;
-        padding: .8rem;
+        float: right;
+        clear: none;
+        margin-left: 0;
+        margin-right: 0
     }
-        
-        #mobile-nav {
-            display: none;
-        }
-        nav#main-nav {
-            display: inline-block;
-            float: right;
-            clear: none;
-            margin-left: 0;
-            margin-right: 0
-        }
-        .js #main-nav {
-            max-height: none;
-            display: inline-block;
-            vertical-align: middle;
-        }
-        
-        #main-nav ul {
-            border: 0;
-            display: inline-block;
-        }
-
-        #main-nav li {
-            margin: 0 0.25em;
-            border: 0;
-            display: inline-block; /* not sure */
-        }
-
-        #main-nav li#nav-hire-me {
-            background-color: #466C88; /* Look at inline for li. need to make inline-block work in order to fill completely with background-color */
-        }
+    .js #main-nav {
+        max-height: none;
+        display: inline-block;
+        vertical-align: middle;
     }
+
+    #main-nav ul {
+        border: 0;
+        display: inline-block;
+    }
+
+    #main-nav li {
+        margin: 0 0.25em;
+        border: 0;
+        display: inline-block; /* not sure */
+    }
+}
 
 
 /* END of NAVIGATION */
@@ -282,12 +266,11 @@ main {
     margin-top: 80px;
 }
 
-    @media only screen and (min-width: 768px) {
-
-        main {
-            margin-top: 0px;
-        }
+@media only screen and (min-width: 768px) {
+    main {
+        margin-top: 0px;
     }
+}
 
 header.intro {
     width: 100%;
@@ -312,7 +295,6 @@ header.intro h1 {
     text-transform: uppercase;
     margin-bottom: .7em;
     font-size: 1.4em;
-
 }
 
 header.intro span.break {
@@ -361,52 +343,51 @@ a#view-portfolio:hover {
 }
 
 
-    @media only screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) {
 
-        header.intro h1 {
-        font-size: 1.6em;
+    header.intro h1 {
+    font-size: 1.6em;
+}
+    header.intro .intro-list {
+        display: block;
+        margin-bottom: 1em;
+        padding-left: 0;
+        font-weight: 600;
+    }
+    header.intro .intro-list li {
+        display: inline-block;
+        margin-left: .2em;
+        vertical-align: middle;
+    }
+    header.intro .intro-list li:first-child:before {
+        content: none;
+    }
+    header.intro .intro-list li:before {
+        font-family: 'FontAwesome';
+        content: '\f111';
+        font-size: 4px;
+        vertical-align: middle;
+        display: inline-block;
+        margin-right: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header.intro {
+    padding: 180px 40px 174px 40px;
+}
+
+    header.intro h1 {
+    font-size: 1.8em;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    header.intro h1 {
+    font-size: 2em;
     }
 
-        header.intro .intro-list {
-            display: block;
-            margin-bottom: 1em;
-            padding-left: 0;
-            font-weight: 600;
-        }
-        header.intro .intro-list li {
-            display: inline-block;
-            margin-left: .2em;
-            vertical-align: middle;
-        }
-        header.intro .intro-list li:first-child:before {
-            content: none;
-        }
-        header.intro .intro-list li:before {
-            font-family: 'FontAwesome';
-            content: '\f111';
-            font-size: 4px;
-            vertical-align: middle;
-            display: inline-block;
-            margin-right: 1.5em;
-        }
-    }
-
-    @media only screen and (min-width: 768px) {
-        header.intro {
-        padding: 180px 40px 174px 40px;
-    }
-        
-        header.intro h1 {
-        font-size: 1.8em;
-        }
-    }
-
-    @media only screen and (min-width: 1100px) {
-        header.intro h1 {
-        font-size: 2em;
-        }
-
-    }
+}
 /* END of INTRO - HEADER */
 
 
@@ -475,8 +456,7 @@ section h2 {
 }
 
 .portfolio-item {
-    background: transparent;
-    
+    background: transparent;   
 }
 
 .portfolio-item img.project {
@@ -484,7 +464,6 @@ section h2 {
     z-index: 100;
     webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-
 }
 
 .portfolio-item:hover>img {
@@ -536,34 +515,37 @@ section h2 {
     background-color: darkseagreen;
 }
 
+#js-quote {
+  background-color: coral;
+}
 
-    @media only screen and (min-width: 580px) {
-        #portfolio figure {
-            width: 50%;
-        }
-
+@media only screen and (min-width: 580px) {
+    #portfolio figure {
+        width: 50%;
     }
 
-    @media only screen and (min-width: 768px) {
-        section h2 {
-        font-size: 1.6em;
-    }
-        }
+}
 
- /*    @media only screen and (min-width: 1100px) {
-        #portfolio figure {
-            width: 33.33%;
-        }
-    } */
+@media only screen and (min-width: 768px) {
+    section h2 {
+    font-size: 1.6em;
+}
+    }
+
+/*    @media only screen and (min-width: 1100px) {
+    #portfolio figure {
+        width: 33.33%;
+    }
+} */
 
 /*     @media only screen and (min-width: 1480px) {
-        #portfolio img .logo, #portfolio img.project {
-        display: none;
-        }
-        #portfolio img.hires {
-            display: inline-block;
-        }
-    } */
+    #portfolio img .logo, #portfolio img.project {
+    display: none;
+    }
+    #portfolio img.hires {
+        display: inline-block;
+    }
+} */
 
 /* END of PORTFOLIO */
 
@@ -687,18 +669,18 @@ footer dd {
     text-align: center;
 }
 
-    @media only screen and (min-width: 580px) {
-        #footer-nav dt {
-            line-height: 1.2;
-        }
-
-        footer dd {
-            display: inline-block;
-            padding-bottom: 1.5em;
-            font-size: 0.875em
-
-        }
+@media only screen and (min-width: 580px) {
+    #footer-nav dt {
+        line-height: 1.2;
     }
+
+    footer dd {
+        display: inline-block;
+        padding-bottom: 1.5em;
+        font-size: 0.875em
+
+    }
+}
 
 /* END of FOOTER */
 
@@ -804,8 +786,6 @@ article {
         line-height: 1.2;
         padding: 100px 30px;
     }
-    
-
 }
 
 /*================*/
@@ -817,6 +797,7 @@ article {
 .content form h2 {
     font-size: 1.2em;
     margin-top: 3em;
+    margin-bottom: .5em;
 }
 
 .content form h2:first-of-type {
@@ -834,6 +815,7 @@ form {
 
 form label{
     margin-top: 1.4em;
+    margin-bottom: .4em;
     width: 100%;
     display: inline-block;    
 }

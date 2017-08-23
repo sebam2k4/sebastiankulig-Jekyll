@@ -10,10 +10,10 @@
 <meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" name="description">
 <meta content="website design, responsive website, ecommerce, web design mayo, affordable web design, websites in ireland, sk design, sk web design, responsibe web design, web development, HTML5, CSS3, graphic Design, wordpress, responsive, adaptive, mobile-friendly, psd2html, digital media, Mayo, County Mayo, Castlebar, Connaught" name="keywords">
 
-<meta content="Sebastian Kulig" name="author">
+<meta content="{{ site.owner.name }}" name="author">
 <meta content="index, follow" name="robots">
 <meta content="index, follow" name="googlebot">
-<meta content="Sebastian Kulig" name="copyright">
+<meta content="{{ site.owner.name }}" name="copyright">
 
 <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}">
 
@@ -21,7 +21,7 @@
 <meta property="og:locale:alternate" content="en_US">
 <meta property="og:locale:alternate" content="en_UK">
 <meta property="og:site_name" content=" {{ site.title }}">
-<meta property="og:image" content="http://www.sebastiankulig.com/img/rich-media-image.jpg">
+<meta property="og:image" content="{{ site.url }}/img/rich-media-image.jpg">
 
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 
@@ -29,8 +29,8 @@
 
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
-<meta name="twitter:creator" content="@sebam2k4">
-<meta name="twitter:site" content="@sebam2k4">
+<meta name="twitter:creator" content="{{ site.owner.twitter_username }}">
+<meta name="twitter:site" content="{{ site.owner.twitter_username }}">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="{{ site.url }}/assets/img/rich-media-image.jpg">
 

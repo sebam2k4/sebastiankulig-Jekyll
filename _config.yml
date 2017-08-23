@@ -1,10 +1,11 @@
 # Site Configuration
 source              : source/
 destination         : _site/
+assets-img          : assets/img
 
 title               : Sebastian Kulig - On a journey becoming a Full-Stack web developer
 description         : Responsive and mobile-friendly website design for you and your business. Based in Castlebar, Co. Mayo, Ireland
-locale              : en_IE
+locale              : en-IE
 baseurl             : "" # the subpath of your site, e.g. /blog ++remove++
 url                 : "http://sebastiankulig.com"
 
@@ -18,7 +19,7 @@ owner:
   instagram_username  : seb_skdesign
   name                : Sebastian Kulig
   email               : info@sebastiankulig.com
-  linkedin_username   :
+  linkedin_username   : sebastian-kulig
   flickr_username     :
   facebook_username   :
 
@@ -36,7 +37,6 @@ exclude:
   
 include:
   - _pages
-  - contact.php
 
  # Site settings
 # These are used to personalize your new site. If you look in the HTML files,

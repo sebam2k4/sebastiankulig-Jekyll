@@ -1,20 +1,27 @@
-[www.sebastiankulig.com](http://www.sebastiankulig.com) is a personal website and portfolio of my web design and development projects. It is being developed using Jekyll.
+[www.sebastiankulig.com](http://www.sebastiankulig.com) is a personal website and portfolio of my web design and development projects. It is being developed using Jekyll and deployed using [Surge.sh](www.surge.sh)
 
 [Jekyll](https://jekyllrb.com/) is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by a web server. 
 
 ## Table of Contents
 
-1. [Latest Release Notes](#v050)
+1. [Latest Release Notes](#v060)
 2. [To Do](#to-do)
 3. [Development Instructions](#development-instructions)
 4. [Notes](#notes)
 
-## v0.5.0
-* Changed deployment to [Surge.sh](www.surge.sh)
-* Removed redundant 'general enquiry' contact form
+## v0.6.0
+* Added more variables to page front matter for easier edits.
+* Removed one incomplete project from porfolio items
+* Added JS Quote Generator Portfolio Page
+* Updated Footer
+* Updated Contact Page
+* Added personal LinkedIn Profile link.
+* Now using [Formspree](www.formspree.io) for contact form.
+* Removed Travis CI as couldn't successfully build jekyll site.
+* Removed 'Education' page.
 
 ## To Do:
-
+* Add MTA & CompTIA A+ certified logos
 * Remove all html from md - use only markdon and liquid inside of pages.
 * Add this website as portfolio-item
 * Consider creating a home layout.
@@ -26,6 +33,7 @@
 * find an alternative to contact.php for static pages
 * Start a blog
 * learn learn learn....
+* Add CV
 
 ## Development Instructions
 
@@ -36,7 +44,7 @@ To set up your environment to develop this website:
 To test the website locally as you make changes to it:
 1. Run `bundle exec jekyll serve` from the root folder of the repo and open your browser to `http://localhost:4000/`. 
 
-This starts a Jekyll server using the website's files and contents. Refresh your browser as modifications are made to see any changes.
+This starts a Jekyll server using the website's files and content. Refresh your browser as modifications are made to see any changes.
 
 For more information about Jekyll and how it works, check out [Jekyll's Documentation](https://jekyllrb.com/)
 
