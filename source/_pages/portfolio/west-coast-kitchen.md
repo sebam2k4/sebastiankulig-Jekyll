@@ -8,9 +8,13 @@ subheading_text: Shopify, HTML, CSS, Responsive
 permalink: /portfolio/west-coast-kitchen/
 button-top:
 button-bottom: contact-portfolio
+project:
+  devices-image: portfolio-west-coast-kitchen-preview.png
+  devices-image-alt: West Coast Kitchen on large desktop and small mobile devices
+  link: http://www.westcoastkitchen.ie/
 ---
           
-<img src="{{ site.url }}/assets/img/portfolio-west-coast-kitchen-preview.png" alt="West Coast Kitchen on large desktop and small mobile devices">
+![{{ page.project.devices-image-alt }}]({{ site.url }}/{{ site.assets-img }}/{{ page.project.devices-image }})
 
 West Coast Kitchen approached me to develop an eCommerce website for their retail business - South African food and textile products. The website needed to function on many different devices and browsers, be easy to update with new products, company information, and blog posts, and be well optimised for load speeds and navigation.
 
@@ -19,6 +23,6 @@ The eCommerce solution I developed is based on the popular Shopify platform and 
 I continue to work with West Coast Kitchen providing front-end and back-end development for adding new features as well as general support with updating the website's content.
 
 <div class="button-visit-website">
-  <a href="http://westcoastkitchen.ie/" target="_blank" title="External link - visit www.westcoastkitchen.ie">Visit Website <i class="fa fa-external-link"></i></a>
+  <a href="{{ page.project.link }}" target="_blank" title="External link - visit www.westcoastkitchen.ie">Visit Website <i class="fa fa-external-link"></i></a>
 </div>
     
