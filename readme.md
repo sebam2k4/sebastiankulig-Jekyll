@@ -4,10 +4,14 @@
 
 ## Table of Contents
 
-1. [Latest Release Notes](#v060)
+1. [Latest Release Notes](#v070)
 2. [To Do](#to-do)
 3. [Development Instructions](#development-instructions)
 4. [Notes](#notes)
+
+## v0.7.0
+* Created first blog post
+* Added Blog page
 
 ## v0.6.0
 * Added more variables to page front matter for easier edits.
@@ -21,6 +25,9 @@
 * Removed 'Education' page.
 
 ## To Do:
+* Write a deceant blog post!?!?!
+* Work on Blog Post styling
+* Work on Blog page styling
 * Add MTA & CompTIA A+ certified logos
 * Remove all html from md - use only markdon and liquid inside of pages.
 * Add this website as portfolio-item
