@@ -127,7 +127,7 @@ p {
 }
 
 .logo-name a:hover {
-    color: #1F303C;
+    color: #81C6FB;
 }
 
 @media only screen and (min-width: 768px) {
@@ -205,7 +205,7 @@ button#mobile-nav {
 }
 
 #main-nav li a:hover {
-    color: #1F303C;
+    color: #81C6FB;
 }
 
 #main-nav ul li a.current {
