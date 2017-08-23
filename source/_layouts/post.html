@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<main id="pages">
+  <article>
+    <header class="intro">
+      <h1>{% if page.heading_text %}{{ page.heading_text }}{% else %}{{ page.title }}{% endif %}</h1>
+      <h2>{% if page.subheading_text %}{{ page.subheading_text}}{% else %}{{page.description}}{% endif %}</h2>
+    </header>
+    {% include button-top.html %}
+    <div class="content">
+      {{ content }}
+    </div>
+    {% include button-bottom.html %}
+  </article>
+</main>
