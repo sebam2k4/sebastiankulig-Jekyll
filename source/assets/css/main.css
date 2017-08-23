@@ -515,6 +515,9 @@ section h2 {
     background-color: darkseagreen;
 }
 
+#js-quote {
+  background-color: coral;
+}
 
 @media only screen and (min-width: 580px) {
     #portfolio figure {
