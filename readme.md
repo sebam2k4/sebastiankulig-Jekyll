@@ -10,15 +10,15 @@
 4. [Notes](#notes)
 
 ## v0.6.0
+* Added more variables to page front matter for easier edits.
+* Removed one incomplete project from porfolio items
+* Added JS Quote Generator Portfolio Page
+* Updated Footer
 * Updated Contact Page
 * Added personal LinkedIn Profile link.
 * Now using [Formspree](www.formspree.io) for contact form.
 * Removed Travis CI as couldn't successfully build jekyll site.
 * Removed 'Education' page.
-
-## v0.5.0
-* Changed deployment to [Surge.sh](www.surge.sh)
-* Removed redundant 'general enquiry' contact form
 
 ## To Do:
 * Add MTA & CompTIA A+ certified logos
