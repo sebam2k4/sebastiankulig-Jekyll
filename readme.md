@@ -10,6 +10,7 @@
 4. [Notes](#notes)
 
 ## v0.6.0
+* Updated Contact Page
 * Added personal LinkedIn Profile link.
 * Now using [Formspree](www.formspree.io) for contact form.
 * Removed Travis CI as couldn't successfully build jekyll site.
@@ -20,7 +21,7 @@
 * Removed redundant 'general enquiry' contact form
 
 ## To Do:
-
+* Add MTA & CompTIA A+ certified logos
 * Remove all html from md - use only markdon and liquid inside of pages.
 * Add this website as portfolio-item
 * Consider creating a home layout.
@@ -43,7 +44,7 @@ To set up your environment to develop this website:
 To test the website locally as you make changes to it:
 1. Run `bundle exec jekyll serve` from the root folder of the repo and open your browser to `http://localhost:4000/`. 
 
-This starts a Jekyll server using the website's files and contents. Refresh your browser as modifications are made to see any changes.
+This starts a Jekyll server using the website's files and content. Refresh your browser as modifications are made to see any changes.
 
 For more information about Jekyll and how it works, check out [Jekyll's Documentation](https://jekyllrb.com/)
 
