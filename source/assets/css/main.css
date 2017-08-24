@@ -918,3 +918,18 @@ input[type="submit"]:hover {
 .content p#conclusion {
     margin-top: 3em;
 }
+
+
+/*==============*/
+/*  BLOG POSTS  */
+/*==============*/
+
+#disqus_thread {
+  margin: 40px 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  #disqus_thread {
+    margin: 40px 50px;
+  }
+}
