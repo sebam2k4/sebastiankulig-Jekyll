@@ -928,8 +928,19 @@ input[type="submit"]:hover {
   margin: 40px 15px;
 }
 
+/* #disqus_thread .nav-primary {
+  border-bottom-color: #466C88 !important;
+}
+
+#disqus_thread .textarea-wrapper {
+  border-color: #466C88 !important;
+}
+
+#disqus_thread .disqus-footer__wrapper {
+  border-top-color: #466C88 !important;
+}
 @media only screen and (min-width: 768px) {
   #disqus_thread {
     margin: 40px 50px;
   }
-}
+} */
