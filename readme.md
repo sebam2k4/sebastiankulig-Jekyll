@@ -10,6 +10,7 @@
 4. [Notes](#notes)
 
 ## v0.7.0
+* Added Disqus commenting system for blog posts
 * Created first blog post
 * Added Blog page
 
