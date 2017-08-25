@@ -1,7 +1,7 @@
 ---
 layout: page
 type: portfolio
-title: 2K Carpentry | Sebastian Kulig - Front-end Developer and Web Designer
+title: 2K Carpentry - project
 heading_text: 2k Carpentry
 subheading_text: Wordpress, HTML, CSS, Responsive
 permalink: /portfolio/2k-carpentry/

@@ -1,7 +1,7 @@
 ---
 layout: page
 type: portfolio
-title: JavaScript Quote Generator | Sebastian Kulig - Front-end Developer and Web Designer
+title: JavaScript Quote Generator - Project
 heading_text: JavaScript Random Quote Generator
 subheading_text: HTML5, CSS3, JavaScript, Responsive
 permalink: /portfolio/js-quote-generator/
