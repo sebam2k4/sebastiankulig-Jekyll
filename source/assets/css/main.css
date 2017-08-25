@@ -924,9 +924,9 @@ input[type="submit"]:hover {
 /*  BLOG POSTS  */
 /*==============*/
 
-#disqus_thread {
+/*#disqus_thread {
   margin: 40px 15px;
-}
+} */
 
 /* #disqus_thread .nav-primary {
   border-bottom-color: #466C88 !important;
