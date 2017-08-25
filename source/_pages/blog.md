@@ -8,14 +8,10 @@ subheading_text: collection
 permalink: /blog/
 button-top: contact
 button-bottom: portfolio
+blog-list: true
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li style="border: solid 3px grey;">
-      {{ post.date | date: "%B %-d, %Y"}} <a href="{{ post.url }}">{{ post.title }}</a>
-      <p>excerpt: </p>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+Welcome to my blog
+
+## Blog Posts
+

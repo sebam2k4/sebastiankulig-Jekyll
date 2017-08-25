@@ -17,6 +17,9 @@ layout: default
       {% if page.type == "portfolio" or page.type == "about" %}
         {% include portfolio-last-p.html %}
       {% endif %}
+      {% if page.blog-list %}
+        {% include blog-list.html %}
+      {% endif %}
     </div>
     {% include button-bottom.html %}
   </article>
