@@ -6,7 +6,7 @@ categories:
 type: post
 comments: true
 heading_text:
-subheading_text: tralalala
+subheading_text: just testing my blog styles :&#41;
 button-top:
 button-bottom: contact-portfolio
 ---
@@ -21,8 +21,19 @@ Hope you stay a while and visit often.
 
 Code Sample:
 
-{% highlight ruby linenos %}
-def foo
-  puts 'foo'
-end
+{% highlight csharp linenos %}
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Hello, world!");
+    }
+  }
+}
 {% endhighlight %}
