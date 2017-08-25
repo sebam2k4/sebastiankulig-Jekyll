@@ -11,8 +11,12 @@ layout: default
     {% include button-top.html %}
     <div class="content">
       {{ content }}
-    </div>
-    {% include button-bottom.html %}
+    </div> 
   </article>
+  <section>
+    <div class="content">
+      {% include disqus.html %}
+    </div>
+  </section>
+  {% include button-bottom.html %}
 </main>
-{% include disqus.html %}
