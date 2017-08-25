@@ -13,7 +13,7 @@ button-bottom: portfolio
 <ul>
   {% for post in site.posts %}
     <li style="border: solid 3px grey;">
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.date | date: "%B %-d, %Y"}} <a href="{{ post.url }}">{{ post.title }}</a>
       <p>excerpt: </p>
       {{ post.excerpt }}
     </li>
