@@ -1,13 +1,17 @@
 .lineno {
-  padding-right: 1em;
+  padding-right: .5em;
   border-right: 1px solid grey;
 }
+code {
+  line-height: 1.5;
+}
 .code {
-  padding-left: .5em;
+padding-left: 1em;
 }
 .highlight  { 
   background: #ffffff;
   padding: .5em;
+  margin: 1em;
 }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
