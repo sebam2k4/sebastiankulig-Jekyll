@@ -1,9 +1,12 @@
 .lineno {
   padding-right: .5em;
   border-right: 1px solid grey;
+  color: #5380A2;
+  opacity: .7;
 }
 code {
-  line-height: 1.5;
+  line-height: 1.4;
+  font-size: 1.125em;
 }
 .code {
 padding-left: 1em;
@@ -11,7 +14,9 @@ padding-left: 1em;
 .highlight  { 
   background: #ffffff;
   padding: .5em;
-  margin: 1em;
+  margin: 1em 0;
+  border-left: 6px solid #5380A2;
+  overflow-x:scroll;
 }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */

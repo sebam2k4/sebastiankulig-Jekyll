@@ -924,6 +924,13 @@ input[type="submit"]:hover {
 /*  BLOG POSTS  */
 /*==============*/
 
+.comments {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 /*#disqus_thread {
   margin: 40px 15px;
 } */
