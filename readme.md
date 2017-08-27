@@ -1,4 +1,4 @@
-[www.sebastiankulig.com](http://www.sebastiankulig.com) is a personal website and portfolio of my web design and development projects. It is being developed using Jekyll and deployed using [Surge.sh](https://www.surge.sh)
+[www.sebastiankulig.com](http://www.sebastiankulig.com) is a personal website and portfolio of my web design and development projects. It is being developed using Jekyll and deployed using [Netlify](https://www.netlify.com)
 
 [Jekyll](https://jekyllrb.com/) is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by a web server. 
 
@@ -10,6 +10,7 @@
 4. [Notes](#notes)
 
 ## v0.7.0
+* Switched deployment to Netlify
 * Added syntax.css for code styling on blog posts
 * Added Disqus commenting system for blog posts
 * Created first blog post
@@ -41,7 +42,6 @@
 * Note to self: Check this out (https://mademistakes.com/faqs/website-tools/)
 * learn learn learn....
 * Add CV
-* Look into changing deployment to Netlify?
 
 ## Development Instructions
 
