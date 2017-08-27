@@ -28,6 +28,7 @@
 * Removed 'Education' page.
 
 ## To Do:
+* change link paths to relative on website
 * Write a deceant blog post!?!?!
 * Work on Blog Post styling
 * Work on Blog page styling
