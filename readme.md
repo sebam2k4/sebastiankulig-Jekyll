@@ -1,40 +1,54 @@
-Sebastian Kulig website (www.sebastiankulig.com)
+[www.sebastiankulig.com](http://www.sebastiankulig.com) is a personal website and portfolio of my web design and development projects. It is being developed using Jekyll and deployed using [Surge.sh](www.surge.sh)
 
+[Jekyll](https://jekyllrb.com/) is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by a web server. 
 
-# v0.1
+## Table of Contents
 
-Migration to Jekyll started.
+1. [Latest Release Notes](#v060)
+2. [To Do](#to-do)
+3. [Development Instructions](#development-instructions)
+4. [Notes](#notes)
 
-divided the website code by repetitive sections:
-head, google analytics, header, portfolio-last-p, footer, js (javascript/JQuery links)
+## v0.6.0
+* Added more variables to page front matter for easier edits.
+* Removed one incomplete project from porfolio items
+* Added JS Quote Generator Portfolio Page
+* Updated Footer
+* Updated Contact Page
+* Added personal LinkedIn Profile link.
+* Now using [Formspree](www.formspree.io) for contact form.
+* Removed Travis CI as couldn't successfully build jekyll site.
+* Removed 'Education' page.
 
-Using two layouts:
-default - used for homepage and as main layout others are derived form
-page - used for pages such as About, Contact, etc.
+## To Do:
+* Add MTA & CompTIA A+ certified logos
+* Remove all html from md - use only markdon and liquid inside of pages.
+* Add this website as portfolio-item
+* Consider creating a home layout.
+* finish content for portfolio pages
+* set up better includes and work on getting this look more like a Jekyll Theme with front-matter
+* look at liquid
+* look at Jekyll Documentation
+* Note to self: Check this out (https://mademistakes.com/faqs/website-tools/)
+* find an alternative to contact.php for static pages
+* Start a blog
+* learn learn learn....
+* Add CV
 
+## Development Instructions
 
-# TO DO:
+To set up your environment to develop this website:
+1. Clone this repo
+2. run `bundle install` from the root folder of the repo (where _config.yml file is).
 
-Note to self: Check this out
-(https://mademistakes.com/faqs/website-tools/)
+To test the website locally as you make changes to it:
+1. Run `bundle exec jekyll serve` from the root folder of the repo and open your browser to `http://localhost:4000/`. 
 
-Research a deployment method. Github Pages is limiting. How to easily deploy to current hosting?
+This starts a Jekyll server using the website's files and content. Refresh your browser as modifications are made to see any changes.
 
-finish content for portfolio pages
+For more information about Jekyll and how it works, check out [Jekyll's Documentation](https://jekyllrb.com/)
 
-set up better includes and work on getting this look more like a Jekyll Theme with front-matter
-
-make buttons as includes
-
-move anchol link tags inside button tags
-
-look at liquid
-
-look at Jekyll Documentation
-
-how to intergate this with github and push updates to external host: register365
-
-learn learn learn....
-
-### note:
-Use 'git subtree push --prefix site/ origin gh-pages' to push built site from subdirectory
+## Notes
+1. Please feel free to fork/clone to play around with the code or develop your own project.
+2. This project will most likely develop into a full Jekyll theme in the future for anyone to use.
+3. Please don't use any of my content: text and pictures.
