@@ -25,6 +25,7 @@ owner:
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 
 keep_files:
   - .git

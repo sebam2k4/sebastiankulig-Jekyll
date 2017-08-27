@@ -8,8 +8,13 @@ comments: true
 heading_text:
 subheading_text: just testing my blog styles :&#41;
 button-top:
-button-bottom: contact-portfolio
+button-bottom: about
 ---
+# Heading 1
+
+## Heading 2
+
+### Heading 3
 
 Hello there good sir!
 
@@ -19,7 +24,13 @@ I'm going to talk about coding, my journey into full-stack web development, and 
 
 Hope you stay a while and visit often.
 
-Code Sample:
+_Italic_
+
+__Bold__
+
+___Italic & Bold___
+
+Code Block Sample using liquid and rogue highlighting:
 
 {% highlight csharp linenos %}
 using System;
@@ -37,3 +48,31 @@ namespace ConsoleApplication1
   }
 }
 {% endhighlight %}
+
+Blockquote Sample (rather underwhelming atm):
+
+> "Hello"
+
+<div class="note">
+<h2>Note</h2>
+<p>This is a sample note... Can't find a way to make these notes in pure markdown... :&#41;</p>
+</div>
+
+Definition Lists (desperately need styling):
+
+HTML
+:  HyperText Markup Language
+
+Definition Lists with `<p>` elements:
+
+CSS
+
+:  Cascading Style Sheets used to style a website.
+
+:  Documents structured using XML or HTML are able to make use of them.
+
+Abbreviations Sample:
+
+Markdown converts text to HTML.
+
+*[HTML]: HyperText Markup Language
