@@ -1,4 +1,4 @@
-[www.sebastiankulig.com](http://www.sebastiankulig.com) is a personal website and portfolio of my web design and development projects. It is being developed using Jekyll and deployed using [Surge.sh](www.surge.sh)
+[www.sebastiankulig.com](http://www.sebastiankulig.com) is a personal website and portfolio of my web design and development projects. It is being developed using Jekyll and deployed using [Surge.sh](https://www.surge.sh)
 
 [Jekyll](https://jekyllrb.com/) is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by a web server. 
 
@@ -22,7 +22,7 @@
 * Updated Footer
 * Updated Contact Page
 * Added personal LinkedIn Profile link.
-* Now using [Formspree](www.formspree.io) for contact form.
+* Now using [Formspree](https://www.formspree.io) for contact form.
 * Removed Travis CI as couldn't successfully build jekyll site.
 * Removed 'Education' page.
 
