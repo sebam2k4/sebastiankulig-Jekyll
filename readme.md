@@ -41,6 +41,7 @@
 * Note to self: Check this out (https://mademistakes.com/faqs/website-tools/)
 * learn learn learn....
 * Add CV
+* Look into changing deployment to Netlify?
 
 ## Development Instructions
 
