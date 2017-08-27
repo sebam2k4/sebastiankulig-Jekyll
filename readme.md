@@ -10,6 +10,7 @@
 4. [Notes](#notes)
 
 ## v0.7.0
+* Added syntax.css for code styling on blog posts
 * Added Disqus commenting system for blog posts
 * Created first blog post
 * Added Blog page
@@ -38,8 +39,6 @@
 * look at liquid
 * look at Jekyll Documentation
 * Note to self: Check this out (https://mademistakes.com/faqs/website-tools/)
-* find an alternative to contact.php for static pages
-* Start a blog
 * learn learn learn....
 * Add CV
 
