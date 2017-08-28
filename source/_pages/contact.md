@@ -21,4 +21,4 @@ After you submit this form, I'll be happy to email you back or call you to discu
 
 Required fields are followed by __*__
   
-
+{% include contact-form.html %}
