@@ -9,7 +9,7 @@ locale              : en-IE
 encoding            : utf-8
 timezone            : Europe/Dublin
 baseurl             : "" # the subpath of your site, e.g. /blog ++remove++
-url                 : "http://www.sebastiankulig.com"
+url                 : "https://www.sebastiankulig.com"
 
 # Site Owner
 owner:
