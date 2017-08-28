@@ -14,7 +14,7 @@ project:
   link: http://www.westcoastkitchen.ie/
 ---
         
-![{{ page.project.devices-image-alt }}]({{ site.assets-img }}/{{ page.project.devices-image }})
+![{{ page.project.devices-image-alt }}]({{ site.assets-img }}/{{ page.project.devices-image }} "{{ page.project.devices-image-alt }}")
 
 West Coast Kitchen approached me to develop an eCommerce website for their retail business - South African food and textile products. The website needed to function on many different devices and browsers, be easy to update with new products, company information, and blog posts, and be well optimised for load speeds and navigation.
 

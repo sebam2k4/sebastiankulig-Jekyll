@@ -13,7 +13,7 @@ project:
   link: https://sebam2k4.github.io/Random-Quote-Generator-JS/
 ---
 
-![{{ page.project.devices-image-alt }}]({{ site.url }}/{{ site.assets-img }}/{{ page.project.devices-image }})
+![{{ page.project.devices-image-alt }}]({{ site.url }}/{{ site.assets-img }}/{{ page.project.devices-image }} "{{ page.project.devices-image-alt }}")
 
 This is a quote generator written in pure JavaScript. Quetes and colors are stored in seperate data arrays and are randomly picked on 'Random Quote' button press. 
 

@@ -13,7 +13,7 @@ project:
   link: http://www.rosewater.ie/
 ---
 
-![{{ page.project.devices-image-alt }}]({{ site.assets-img }}/{{ page.project.devices-image }})
+![{{ page.project.devices-image-alt }}]({{ site.assets-img }}/{{ page.project.devices-image }} "{{ page.project.devices-image-alt }}")
 
 Rosewater Weddigns are bespoke wedding decor specialists providing full wedding design service to couples nationwide in the Republic of Ireland.
 

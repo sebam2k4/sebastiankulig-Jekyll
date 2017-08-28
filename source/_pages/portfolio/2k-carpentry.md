@@ -13,7 +13,7 @@ project:
   link: http://2kcarpentry.com/
 ---
 
-![{{ page.project.devices-image-alt }}]({{ site.url }}/{{ site.assets-img }}/{{ page.project.devices-image }})
+![{{ page.project.devices-image-alt }}]({{ site.url }}/{{ site.assets-img }}/{{ page.project.devices-image }} "{{ page.project.devices-image-alt }}")
 
 Information about this project is coming soon... stay tuned.
 
