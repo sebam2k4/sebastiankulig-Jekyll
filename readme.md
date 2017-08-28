@@ -10,25 +10,14 @@
 4. [Notes](#notes)
 
 ## v0.7.0
+* All page and asset links are now relative
 * Switched deployment to Netlify
 * Added syntax.css for code styling on blog posts
 * Added Disqus commenting system for blog posts
 * Created first blog post
 * Added Blog page
 
-## v0.6.0
-* Added more variables to page front matter for easier edits.
-* Removed one incomplete project from porfolio items
-* Added JS Quote Generator Portfolio Page
-* Updated Footer
-* Updated Contact Page
-* Added personal LinkedIn Profile link.
-* Now using [Formspree](https://www.formspree.io) for contact form.
-* Removed Travis CI as couldn't successfully build jekyll site.
-* Removed 'Education' page.
-
 ## To Do:
-* change link paths to relative on website
 * Write a deceant blog post!?!?!
 * Work on Blog Post styling
 * Work on Blog page styling
