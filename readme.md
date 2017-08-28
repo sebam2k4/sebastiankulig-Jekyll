@@ -32,7 +32,7 @@
 * Note to self: Check this out (https://mademistakes.com/faqs/website-tools/)
 * learn learn learn....
 * Add CV
-
+* Look at this [tutorial](https://jekyllrb.com/tutorials/convert-site-to-jekyll/) 
 ## Development Instructions
 
 To set up your environment to develop this website:
