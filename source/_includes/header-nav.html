@@ -1,23 +1,23 @@
 <header id="header-page">
            <div class="container">
             <div class="logo-name">
-                <h1><a href="{{ site.baseurl }}/">Sebastian Kulig</a></h1>
+                <h1><a href="{% link _pages/home.html %}">Sebastian Kulig</a></h1>
             </div>
             <button id="mobile-nav"><i class="fa fa-bars fa-2x"></i></button>
 
             <nav id="main-nav" role="navigation">
                 <ul class="nav-menu">
                     <li>
-                        <a href="{{ site.url }}/about/" title="Web Designer & Front-end Developer">About</a>
+                        <a href="{% link _pages/about.md %}" title="Web Designer & Front-end Developer">About</a>
                     </li>
                     <li>
-                        <a id="nav-home" href="{{ site.url }}/#portfolio-scroll" title="Portfolio of Web Design & Front-end Development">Projects</a>
+                        <a id="nav-home" href="{% link _pages/home.html %}#portfolio-scroll" title="Portfolio of Web Design & Front-end Development">Projects</a>
                     </li>   
                     <li>
-                        <a href="{{ site.url }}/blog/" title="Blog about Coding & Full Stack Web Development">Blog</a>
+                        <a href="{% link _pages/blog.md %}" title="Blog about Coding & Full Stack Web Development">Blog</a>
                     </li>                 
                     <li>
-                        <a href="{{ site.url }}/hire-sebastian/" title="Hire Sebastian - a Web Designer & Front-end Developer">Contact</a>
+                        <a href="{% link _pages/contact.md %}" title="Hire Sebastian - a Web Designer & Front-end Developer">Contact</a>
                     </li>
                 </ul>
             </nav>

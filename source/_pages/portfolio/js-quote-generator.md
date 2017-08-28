@@ -9,7 +9,7 @@ button-top:
 button-bottom: contact-portfolio
 project:
   devices-image: portfolio-JS-quote-generator-preview.png
-  devices-image-alt: 
+  devices-image-alt: Quote Generator on large desktop and small mobile devices preview
   link: https://sebam2k4.github.io/Random-Quote-Generator-JS/
 ---
 
@@ -18,5 +18,5 @@ project:
 This is a quote generator written in pure JavaScript. Quetes and colors are stored in seperate data arrays and are randomly picked on 'Random Quote' button press. 
 
 <div class="button-visit-website">
-  <a href="{{ page.project.link }}" target="_blank" title="External link - visit JS Quote Generator">Visit Website <i class="fa fa-external-link"></i></a>
+  <a href="{{ page.project.link }}" target="_blank" title="External link - visit {{ page.project.link }}">Visit Website <i class="fa fa-external-link"></i></a>
 </div>
