@@ -927,6 +927,10 @@ input[type="submit"]:hover {
 /*  BLOG POSTS  */
 /*==============*/
 
+.blog h1, .blog h2, .blog h3 {
+  margin: 0 0 1em 0;
+}
+
 .comments {
   width: 100%;
   max-width: 760px;
@@ -935,32 +939,66 @@ input[type="submit"]:hover {
 }
 
 .blog .note {
-  background-color: #7ABCEE;
-  margin: 1em;
-  padding: 1.5em;;
+  margin: 1em 0;
+  padding: 1em;
+  color: aliceblue;
+}
+
+.blog .note.blue {
+  background-color: #5380A2;
+}
+
+.blog .note h4{
+  font-size: 1.6em;
+  margin: 0 0 .1em 0;
+}
+
+.blog .note a {
   color: white;
 }
-.blog .note h3, .blog .note h2 {
-  margin-top: 0;
+.blog .note a:hover {
+  color: #81C6FB;
+}
+.blog .note code {
+  font-family: monospace;
+  background: aliceblue;
+  color: #5380A2;
+  padding: .1em .4em;
+  border-radius: .4em;
 }
 
-/*#disqus_thread {
-  margin: 40px 15px;
+.blog code {
+  font-family: monospace;
+  background: #5380A2;
+  color: aliceblue;
+  padding: .1em .4em;
+  border-radius: .4em;
+}
+
+.blog dl {
+  padding: 0 0 0 1em;
+  margin: 1em 0;
+}
+.blog dt {
+  font-size: 1.6em;
+  margin: 0 0 .3em 0;
+  color: #7ABCEE;
+  font-weight: bold;
+}
+/*.blog dt::after {
+  content: ":";
 } */
-
-/* #disqus_thread .nav-primary {
-  border-bottom-color: #466C88 !important;
+.blog dd {
+  padding: 0 0 0.5em 0;
+  line-height: 1.2;
 }
 
-#disqus_thread .textarea-wrapper {
-  border-color: #466C88 !important;
-}
 
-#disqus_thread .disqus-footer__wrapper {
-  border-top-color: #466C88 !important;
-}
-@media only screen and (min-width: 768px) {
-  #disqus_thread {
-    margin: 40px 50px;
+@media only screen and (min-width: 580px) {
+  .blog .note {
+    padding: 1.5em;
   }
-} */
+  .blog dl {
+    padding: 0 0 0 1.5em;
+  }
+}

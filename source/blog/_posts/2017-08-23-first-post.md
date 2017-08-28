@@ -12,6 +12,10 @@ button-bottom: about
 blog-post:
   id: 1
 ---
+
+{::options parse_block_html="true" /}
+{::options auto_ids="false" /}
+
 # Heading 1
 
 ## Heading 2
@@ -55,26 +59,36 @@ Blockquote Sample (rather underwhelming atm):
 
 > "Hello"
 
-<div class="note">
-<h2>Note</h2>
-<p>This is a sample note... Can't find a way to make these notes in pure markdown... :&#41;</p>
+
+<div class="note blue">
+#### Note
+This is a sample note or warning
 </div>
 
-Definition Lists (desperately need styling):
+<div class="note blue">
+#### Keep in mind
+You can always fork this project on [github](https://github.com/sebam2k4/sebastiankulig-Jekyll) and deploy it locally on your machine using `bundle exec jekyll serve` terminal command. Then you can acces the preview on `localhost:4000` It is that easy.
+</div>
+
+Definition Lists:
 
 HTML
 :  HyperText Markup Language
 
-Definition Lists with `<p>` elements:
+Need this paragraph to break definition lists:
+
+HTML
+:  HyperText Markup Language
+
+Otherwise you get this - multiple `<dt>` and `<dd>` in a single `<dl>` like this:
 
 CSS
-
 :  Cascading Style Sheets used to style a website.
-
 :  Documents structured using XML or HTML are able to make use of them.
 
-Abbreviations Sample:
+Jekyll
+:  Jekyll is a simple, blog-aware, static site generator.
+:  It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server
+:  Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.
 
-Markdown converts text to HTML.
-
-*[HTML]: HyperText Markup Language
+The styling is looking __AWESOME__ so far I think. Still needs a bit of work thought.
