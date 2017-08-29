@@ -150,7 +150,7 @@ button#mobile-nav {
     height: 46px;
     top: -18px;
     position: relative;
-    font-size: 105%;
+    font-size: 1.125em;
     -moz-transition: all 0.3s ease-out;
     -ms-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -315,7 +315,7 @@ header.intro span.break {
 
 .intro .intro-list {
     display: none;
-    font-size: 1.067em;
+    font-size: 1.125em;
 }
 
 a#view-portfolio {
@@ -323,7 +323,7 @@ a#view-portfolio {
     padding-top: 1.25em;
     margin-top: 1.25em;
     text-transform: uppercase;
-    font-size: 0.875em;
+    font-size: 1em;
     font-weight: 900;
     letter-spacing: 1px;
     color: white;
@@ -579,7 +579,7 @@ section#featured-testimonials {
 }
 
 blockquote>p {
-    line-height: 1.6;
+    line-height: 1.5;
     font-size: 1rem;
     margin-bottom: 20px;
 }
@@ -655,7 +655,7 @@ nav#footer-nav {
     display: block;
     text-align: center;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.125rem;
     line-height: 2; 
 }
 
@@ -676,7 +676,7 @@ footer dd {
     footer dd {
         display: inline-block;
         padding-bottom: 1.5em;
-        font-size: 0.875em
+        font-size: 0.875rem
 
     }
 }
@@ -727,8 +727,9 @@ article {
 }
 
 .content p {
-    line-height: 1.6;
-    margin-top: 1em;   
+  line-height: 1.5;
+  margin-top: 1em;
+  font-size: 1.125em;
 }
 
 .content p:first-of-type {
@@ -766,17 +767,17 @@ article {
 }
 
 .content h1 {
-  font-size: 2em;
+  font-size: 2.2em;
 }
 
 .content h2 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-top: 2em;
     font-weight: 700;
 }
 
 .content h3 {
-    font-size: 1.1em;
+    font-size: 1.4em;
     font-weight: 700;
     margin-top: 2em;
     line-height: 1.3;
@@ -798,7 +799,6 @@ article {
 
 
 .content form h2 {
-    font-size: 1.2em;
     margin-top: 3em;
     margin-bottom: .5em;
 }
@@ -927,17 +927,21 @@ input[type="submit"]:hover {
 /*  BLOG POSTS  */
 /*==============*/
 
+.blog p {
+  font-size: 1.125em;
+}
+
 .blog blockquote {
   position: relative;
-  padding-left: 3em;
-  margin: 1em 0;
+  padding: 0 1em 0 3em;
+  margin: 2em 0;
   font-style: italic;
   quotes: none;
 }
-
 .blog blockquote::before {
   content: "\f10d";
   font-family: FontAwesome;
+  color: #5380A2;
   position:absolute;
   top:5px;
   left:8px;
@@ -947,6 +951,10 @@ input[type="submit"]:hover {
 }
 
 .blog h1, .blog h2, .blog h3 {
+  margin: 2em 0 1em 0;
+}
+
+.blog h1:first-of-type {
   margin: 0 0 1em 0;
 }
 
@@ -958,7 +966,7 @@ input[type="submit"]:hover {
 }
 
 .blog .note {
-  margin: 1em 0;
+  margin: 2em 0;
   padding: 1em;
   color: aliceblue;
 }
@@ -968,10 +976,13 @@ input[type="submit"]:hover {
 }
 
 .blog .note h4{
-  font-size: 1.6em;
+  font-size: 1.75em;
   margin: 0 0 .1em 0;
 }
-
+.blog .note p {
+  font-size: 1.125em;
+  line-height: 1.4;
+}
 .blog .note a {
   color: white;
 }
@@ -996,20 +1007,20 @@ input[type="submit"]:hover {
 
 .blog dl {
   padding: 0 0 0 1em;
-  margin: 1em 0;
+  margin: 2em 0;
 }
 .blog dt {
   font-size: 1.6em;
-  margin: 0 0 .3em 0;
-  color: #7ABCEE;
+  margin: 1em 0 0 0;
+  color: #5380A2;
   font-weight: bold;
 }
 /*.blog dt::after {
   content: ":";
 } */
 .blog dd {
-  padding: 0 0 0.5em 0;
-  line-height: 1.2;
+  padding: 0.6em 0 0 0;
+  line-height: 1.3;
 }
 
 
@@ -1019,5 +1030,31 @@ input[type="submit"]:hover {
   }
   .blog dl {
     padding: 0 0 0 1.5em;
+  }
+}
+
+/* terminal window */
+.terminal {
+  border-top: 22px solid #bbb;
+  width: 100%;
+  background-color: #151515;
+  margin: 2em 0;
+  border-top-right-radius: .6em;
+  border-top-left-radius: .6em;
+  color: #9CD9F0;
+  font-family: monospace;
+  padding: 2em 1em;
+}
+
+.terminal p {
+  position: relative;
+  text-align: left;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 580px) {
+  .terminal {
+    padding: 2em 1.5em;
+
   }
 }
