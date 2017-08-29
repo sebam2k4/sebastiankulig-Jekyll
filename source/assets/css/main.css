@@ -927,6 +927,25 @@ input[type="submit"]:hover {
 /*  BLOG POSTS  */
 /*==============*/
 
+.blog blockquote {
+  position: relative;
+  padding-left: 3em;
+  margin: 1em 0;
+  font-style: italic;
+  quotes: none;
+}
+
+.blog blockquote::before {
+  content: "\f10d";
+  font-family: FontAwesome;
+  position:absolute;
+  top:5px;
+  left:8px;
+  display:block;
+  font-size: 2em;
+  font-style: normal;
+}
+
 .blog h1, .blog h2, .blog h3 {
   margin: 0 0 1em 0;
 }

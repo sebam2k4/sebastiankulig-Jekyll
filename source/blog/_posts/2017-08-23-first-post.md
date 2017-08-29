@@ -57,9 +57,7 @@ namespace ConsoleApplication1
 
 Blockquote Sample (rather underwhelming atm):
 
-> "Hello"
-
-
+> Hello. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto!
 <div class="note blue">
 #### Note
 This is a sample note or warning
