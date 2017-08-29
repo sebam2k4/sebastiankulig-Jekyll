@@ -1052,9 +1052,16 @@ input[type="submit"]:hover {
   font-size: 1rem;
 }
 
+.terminal p.command:before {
+  content: '$';
+  position: absolute;
+  left: -15px;
+  top: 0;
+}
+
 @media only screen and (min-width: 580px) {
   .terminal {
-    padding: 2em 1.5em;
+    padding: 2em 1.5em 2em 2.5em;
 
   }
 }

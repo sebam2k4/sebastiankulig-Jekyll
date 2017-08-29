@@ -71,7 +71,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibu
 Here is a sample terminal window with commands and output:
 
 <div class="terminal">
-$ bundle exec jekyll serve
+bundle exec jekyll serve
+{: .command}
 
 Configuration file: .../sebastiankulig-Jekyll/_config.yml
 
