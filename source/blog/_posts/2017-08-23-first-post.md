@@ -16,12 +16,6 @@ blog-post:
 {::options parse_block_html="true" /}
 {::options auto_ids="false" /}
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
 Hello there good sir!
 
 This is my first blog post on my personal portfolio-slash-semi-professional website.
@@ -29,6 +23,23 @@ This is my first blog post on my personal portfolio-slash-semi-professional webs
 I'm going to talk about coding, my journey into full-stack web development, and other things that interest me such as realtime 3D architectural vizualizations and memes.
 
 Hope you stay a while and visit often.
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+* * *
+
+# Heading 1
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
+
+## Heading 2
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
+
+### Heading 3
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
 
 _Italic_
 
@@ -55,18 +66,18 @@ namespace ConsoleApplication1
 }
 {% endhighlight %}
 
-__Awesome code syntax highlighting above, isn't it!__ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto! __Lorem ipsum__ dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
+Lorem ipsum dolor [sit amet](#), consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
 
 > This is a Blockquote Sample. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto!
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
+Lorem ipsum dolor sit amet, [consectetur adipisicing elit](#). Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
 
 <div class="note blue">
 #### Keep in mind
 You can always fork this project on [github](https://github.com/sebam2k4/sebastiankulig-Jekyll) and deploy it locally on your machine using `bundle exec jekyll serve` terminal command. Then you can acces the preview on `localhost:4000` It is that easy.
 </div>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
 
 Here is a sample terminal window with commands and output:
 
@@ -95,33 +106,16 @@ paragraph text `{: .blue}` - Could be useful for changing paragraph color
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
 
-## Heading 2
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
-
-### Heading 3
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
-
 Definition Lists:
 
 HTML
 :  HyperText Markup Language
 
-Need this paragraph to break definition lists in kramdown:
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
 
 HTML
 :  HyperText Markup Language
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
 
