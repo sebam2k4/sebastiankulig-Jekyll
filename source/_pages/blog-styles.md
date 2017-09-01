@@ -13,6 +13,20 @@ permalink: /blog-styles
 {::options parse_block_html="true" /}
 {::options auto_ids="false" /}
 
+IMPORTANT NOTE: Make images into includes that accepts page.image-path, page.image-caption, and etc., as arguments. if caption == true, dispaly caption. use something like:
+
+{% highlight HTML linenos %}
+<figure>
+  <a href="{{ include.url}}"></a>
+  <img src="{{ include.file }}" alt="{{ include.alt }}">
+  <figcaption></figcaption>
+</figure>
+
+{% endhighlight %}
+
+Make images as includes. Figure out what's the best way to implement this. Keep terminal and note components as they are or also try to make into includes. Terminal might be trickiest due to assigning a class .command in liquid. Not sure if can do that in an include.
+
+
 # Heading 1
 
 ## Heading 2
@@ -55,11 +69,31 @@ namespace ConsoleApplication1
 }
 {% endhighlight %}
 
+Add this code: (no line numbers sample)
+
+{% highlight css %}
+.terminal {
+  border-top: 22px solid #bbb;
+  width: 100%;
+  background-color: #151515;
+  margin: 2em 0;
+  border-top-right-radius: .6em;
+  border-top-left-radius: .6em;
+  color: #9CD9F0;
+  font-family: monospace;
+  padding: 2em 1.5em 2em 2em;
+}
+{% endhighlight %}
+
 Lorem ipsum dolor [sit amet](#), consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
 
 > This is a Blockquote Sample. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto!
 
 Lorem ipsum dolor sit amet, [consectetur adipisicing elit](#). Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
+
+![Random Photo from Unsplash](https://unsplash.it/600/?image=1040)
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
 
 <div class="note blue">
 #### Keep in mind
