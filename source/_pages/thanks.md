@@ -8,6 +8,6 @@ permalink: /thanks/
 ---
 
 
-  Thanks for submitting the contact form, I'll get back to you soon. In the meantime have a look at my [portfolio]({% link _pages/home.html %}#portfolio-scroll "Front-end web development") or learn more [about me](({% link _pages/about.md %} "Front-end web development") and my skills.
+  Thanks for submitting the contact form, I'll get back to you soon. In the meantime have a look at my [portfolio]({% link _pages/home.html %}#portfolio-scroll "Front-end web development") or learn more [about me]({% link _pages/about.md %} "Front-end web development") and my skills.
 
  
