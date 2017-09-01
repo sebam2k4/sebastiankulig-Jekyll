@@ -743,8 +743,8 @@ article {
   font-size: 1.125em;
 }
 
-.content p:first-of-type {
-    margin-top: 0;
+.content > :first-child {
+  margin-top: 0;
 }
 
 .content p a {
@@ -963,13 +963,6 @@ input[type="submit"]:hover {
   font-size: 2em;
   font-style: normal;
 }
-
-
-
-.blog:first-child {
-  margin-top: 0;
-}
-
 .comments {
   width: 100%;
   max-width: 760px;
