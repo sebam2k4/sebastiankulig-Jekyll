@@ -10,6 +10,9 @@
 4. [Notes](#notes)
 
 ## v0.7.0
+* Moved portfolio images to subfolder
+* images and notes are now includes
+* Added Blog Styles Guide Page
 * All page and asset links are now relative
 * Switched deployment to Netlify
 * Added syntax.css for code styling on blog posts
@@ -18,21 +21,17 @@
 * Added Blog page
 
 ## To Do:
-* Write a deceant blog post!?!?!
-* Work on Blog Post styling
-* Work on Blog page styling
 * Add MTA & CompTIA A+ certified logos
 * Remove all html from md - use only markdon and liquid inside of pages.
 * Add this website as portfolio-item
 * Consider creating a home layout.
 * finish content for portfolio pages
-* set up better includes and work on getting this look more like a Jekyll Theme with front-matter
 * look at liquid
 * look at Jekyll Documentation
 * Note to self: Check this out (https://mademistakes.com/faqs/website-tools/)
-* learn learn learn....
 * Add CV
-* Look at this [tutorial](https://jekyllrb.com/tutorials/convert-site-to-jekyll/) 
+* Look at this [tutorial](https://jekyllrb.com/tutorials/convert-site-to-jekyll/)
+
 ## Development Instructions
 
 To set up your environment to develop this website:
