@@ -2,6 +2,7 @@
 layout: page
 type: portfolio
 title: 2K Carpentry - project
+description: 
 heading_text: 2k Carpentry
 subheading_text: Wordpress, HTML, CSS, Responsive
 permalink: /portfolio/2k-carpentry/
@@ -9,11 +10,11 @@ button-top:
 button-bottom: contact-portfolio
 project:
   devices-image:
-  devices-image-alt: 2K Carpentry website on large desktop and small mobile devices preview
+  devices-alt: 2K Carpentry website on large desktop and small mobile devices preview
   link: http://2kcarpentry.com/
 ---
 
-![{{ page.project.devices-image-alt }}]({{ site.url }}/{{ site.assets-img }}/{{ page.project.devices-image }} "{{ page.project.devices-image-alt }}")
+{% include image.html file=page.project.devices-image alt=page.project.devices-alt title=page.description %}
 
 Information about this project is coming soon... stay tuned.
 

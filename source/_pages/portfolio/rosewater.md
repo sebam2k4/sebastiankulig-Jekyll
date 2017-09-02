@@ -2,18 +2,19 @@
 layout: page
 type: portfolio
 title: Rosewater - Project
-heading_text: Rosewater
+description: Rosewater Wedding - Bespoke wedding decor specialists.
+heading_text: Rosewater Weddings
 subheading_text: Shopify, HTML, CSS, Responsive, Graphic Design
 permalink: /portfolio/rosewater/
 button-top:
 button-bottom: contact-portfolio
 project:
-  devices-image: portfolio-rosewater-preview.png
-  devices-image-alt: West Coast Kitchen on large desktop and small mobile devices preview
+  devices-image: /assets/img/projects/portfolio-rosewater-preview.png
+  devices-alt: Rosewater on large desktop and small mobile devices preview
   link: http://www.rosewater.ie/
 ---
 
-![{{ page.project.devices-image-alt }}]({{ site.assets-img }}/{{ page.project.devices-image }} "{{ page.project.devices-image-alt }}")
+{% include image.html file=page.project.devices-image alt=page.project.devices-alt title=page.project.devices-alt %}
 
 Rosewater Weddigns are bespoke wedding decor specialists providing full wedding design service to couples nationwide in the Republic of Ireland.
 
