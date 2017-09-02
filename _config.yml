@@ -1,7 +1,6 @@
 # Site Configuration
 source              : source/
 destination         : _site/
-assets-img          : /assets/img
 
 title               : Sebastian Kulig - On a journey becoming a Full-Stack web developer
 description         : Responsive and mobile-friendly website design for you and your business. Based in Castlebar, Co. Mayo, Ireland
