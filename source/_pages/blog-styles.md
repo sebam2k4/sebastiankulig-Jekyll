@@ -8,24 +8,15 @@ subheading_text: just testing my blog styles :&#41;
 button-top:
 button-bottom: about
 permalink: /blog-styles
+image:
+  path: https://unsplash.it/600/?image=1040
+  alt: Unsplash Image
+image2:
+  path: https://unsplash.it/600/?image=1041
+  alt: Unsplash Image
 ---
 
-{::options parse_block_html="true" /}
 {::options auto_ids="false" /}
-
-IMPORTANT NOTE: Make images into includes that accepts page.image-path, page.image-caption, and etc., as arguments. if caption == true, dispaly caption. use something like:
-
-{% highlight HTML linenos %}
-<figure>
-  <a href="{{ include.url}}"></a>
-  <img src="{{ include.file }}" alt="{{ include.alt }}">
-  <figcaption></figcaption>
-</figure>
-
-{% endhighlight %}
-
-Make images as includes. Figure out what's the best way to implement this. Keep terminal and note components as they are or also try to make into includes. Terminal might be trickiest due to assigning a class .command in liquid. Not sure if can do that in an include.
-
 
 # Heading 1
 
@@ -91,19 +82,33 @@ Lorem ipsum dolor [sit amet](#), consectetur adipisicing elit. Aliquam et volupt
 
 Lorem ipsum dolor sit amet, [consectetur adipisicing elit](#). Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
 
-![Random Photo from Unsplash](https://unsplash.it/600/?image=1040)
+{% include image.html
+file=page.image.path
+alt=page.image.alt
+title=page.image.alt
+%}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
 
-<div class="note blue">
-#### Keep in mind
-You can always fork this project on [github](https://github.com/sebam2k4/sebastiankulig-Jekyll) and deploy it locally on your machine using `bundle exec jekyll serve` terminal command. Then you can acces the preview on `localhost:4000` It is that easy.
-</div>
+{% include image.html
+file=page.image2.path
+alt=page.image2.alt
+title=page.image2.alt
+caption="This is a picture"
+%}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
+
+{% include note.html
+heading="Keep in mind"
+content="You can always fork this project on [github](https://github.com/sebam2k4/sebastiankulig-Jekyll) and deploy it locally on your machine using `bundle exec jekyll serve` terminal command. Then you can acces the preview on `localhost:4000` It is that easy."
+%}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
 
 Here is a sample terminal window with commands and output:
 
+{::options parse_block_html="true" /}
 <div class="terminal">
 bundle exec jekyll serve
 {: .command}
@@ -121,6 +126,7 @@ Auto-regeneration: enabled for 'source/'
 Server address: http://127.0.0.1:4000/
 Server running... press ctrl-c to stop.
 </div>
+{::options parse_block_html="false" /}
 
 Can apply class to element like a paragraph using Kramdown: 
 
@@ -154,5 +160,3 @@ Jekyll
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et voluptatibus deleniti provident error vitae dolor eum numquam ad laborum maiores repellendus ullam iure deserunt, veritatis voluptas non mollitia architecto.
 
 The styling is looking __AWESOME__ so far I think. Still needs a bit of work though.
-
-Note to self: Underline for inline links? Images?

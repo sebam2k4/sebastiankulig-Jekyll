@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  Welcome to my first blog post!
-date:   2017-08-23 22:05:00 +0000
+title: Welcome to my first blog post!
+description: Blog posts coming soon... :&#41;
+date: 2017-08-23 22:05:00 +0000
 categories:
-type: basic
 comments: true
-heading_text:
-subheading_text: Blog posts coming soon... :&#41;
 button-top:
 button-bottom: about
 blog-post:

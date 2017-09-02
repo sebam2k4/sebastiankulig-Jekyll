@@ -4,6 +4,9 @@
   color: #5380A2;
   opacity: .7;
 }
+.highlight > pre {
+  padding: 2em 1em;
+}
 .highlight code {
   line-height: 1.4;
   font-size: 1.125em;
