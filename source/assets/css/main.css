@@ -789,8 +789,9 @@ input[type="submit"]:hover {
   font-size: 1.125em;
 }
 .blog blockquote {
+  background-color: white;
   position: relative;
-  padding: 0 1em 0 3em;
+  padding: 1.5rem 1em 1.5rem 3em;
   margin: 2em 0;
   font-style: italic;
   quotes: none;
@@ -800,11 +801,14 @@ input[type="submit"]:hover {
   font-family: FontAwesome;
   color: #5380A2;
   position:absolute;
-  top:5px;
+  top:30px;
   left:8px;
   display:block;
   font-size: 2em;
   font-style: normal;
+}
+.blog blockquote>p {
+  margin: 0;
 }
 .comments {
   width: 100%;
@@ -874,7 +878,7 @@ input[type="submit"]:hover {
   .blog dl {
     padding: 0 0 0 1.5em;
   }
-}
+
 /* terminal window */
 .terminal {
   border-top: 22px solid #bbb;
