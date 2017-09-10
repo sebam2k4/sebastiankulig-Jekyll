@@ -2,16 +2,14 @@
 layout: page
 type: basic
 title: Blog
-description: Blogging about Coding and Full Stack Web Development
-heading_text: Blog
-subheading_text: collection
+description: About Coding and Web Development
+heading_text:
+subheading_text:
 permalink: /blog/
 button-top: contact
 button-bottom: portfolio
 blog-list: true
 ---
 
-Welcome to my blog
-
-## Blog Posts
+## Latest Articles:
 
