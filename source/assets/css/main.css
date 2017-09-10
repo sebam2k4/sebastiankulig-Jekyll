@@ -726,7 +726,7 @@ article {
 .content li {
   list-style-type: square;
   line-height: 1.5;
-  font-size: 1.125em;
+  font-size: 1em;
 }
 
 .content ul {
@@ -744,7 +744,7 @@ article {
 .content p {
   line-height: 1.5;
   margin-top: 1em;
-  font-size: 1.125em;
+  font-size: 1em;
 }
 
 .content > :first-child {
@@ -933,6 +933,10 @@ input[type="submit"]:hover {
 /*==============*/
 
 .blog p {
+  font-size: 1.125em;
+}
+
+.blog li {
   font-size: 1.125em;
 }
 
