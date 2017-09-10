@@ -1,41 +1,37 @@
-[www.sebastiankulig.com](http://www.sebastiankulig.com) is a personal website and portfolio of my web design and development projects. It is being developed using Jekyll and deployed using [Surge.sh](www.surge.sh)
+[www.sebastiankulig.com](https://www.sebastiankulig.com) is a personal portfolio of my web development projects. It is being developed using Jekyll and deployed using [Netlify](https://www.netlify.com)
 
 [Jekyll](https://jekyllrb.com/) is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by a web server. 
 
 ## Table of Contents
 
-1. [Latest Release Notes](#v060)
+1. [Latest Release Notes](#v070)
 2. [To Do](#to-do)
 3. [Development Instructions](#development-instructions)
 4. [Notes](#notes)
 
-## v0.6.0
-* Added more variables to page front matter for easier edits.
-* Removed one incomplete project from porfolio items
-* Added JS Quote Generator Portfolio Page
-* Updated Footer
-* Updated Contact Page
-* Added personal LinkedIn Profile link.
-* Now using [Formspree](www.formspree.io) for contact form.
-* Removed Travis CI as couldn't successfully build jekyll site.
-* Removed 'Education' page.
+## v0.7.0
+* Forced TLS connections to redirect to HTTPS
+* Moved portfolio images to subfolder
+* images and blog notes are now includes
+* Added [Blog Styles Guide Page](https://www.sebastiankulig/blog-styles)
+* All page and asset links are now relative
+* Switched deployment to Netlify
+* Added syntax.css for code styling on blog posts
+* Added Disqus commenting system for blog posts
+* Added Blog page
 
 ## To Do:
+* Test deployment Instruction on fresh Windows VM.
 * Add MTA & CompTIA A+ certified logos
 * Remove all html from md - use only markdon and liquid inside of pages.
 * Add this website as portfolio-item
-* Consider creating a home layout.
 * finish content for portfolio pages
-* set up better includes and work on getting this look more like a Jekyll Theme with front-matter
-* look at liquid
 * look at Jekyll Documentation
-* Note to self: Check this out (https://mademistakes.com/faqs/website-tools/)
-* find an alternative to contact.php for static pages
-* Start a blog
-* learn learn learn....
+* See Jekyll related posts in (https://mademistakes.com/faqs/website-tools/)
 * Add CV
+* Look at this [tutorial](https://jekyllrb.com/tutorials/convert-site-to-jekyll/)
 
-## Development Instructions
+## Development Instructions (Not Tested)
 
 To set up your environment to develop this website:
 1. Clone this repo

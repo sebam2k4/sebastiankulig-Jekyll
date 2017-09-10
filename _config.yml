@@ -1,13 +1,14 @@
 # Site Configuration
 source              : source/
 destination         : _site/
-assets-img          : assets/img
 
 title               : Sebastian Kulig - On a journey becoming a Full-Stack web developer
 description         : Responsive and mobile-friendly website design for you and your business. Based in Castlebar, Co. Mayo, Ireland
 locale              : en-IE
+encoding            : utf-8
+timezone            : Europe/Dublin
 baseurl             : "" # the subpath of your site, e.g. /blog ++remove++
-url                 : "http://www.sebastiankulig.com"
+url                 : "https://www.sebastiankulig.com"
 
 # Site Owner
 owner:
@@ -25,6 +26,7 @@ owner:
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 
 keep_files:
   - .git

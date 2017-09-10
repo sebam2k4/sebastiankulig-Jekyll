@@ -1,20 +1,20 @@
 ---
 layout: page
 type: portfolio
-title: West Coast Kitchen | Sebastian Kulig - Front-end Developer and Web Designer
-description: South African food and textile products retailer. I Created an eCommerce solution based on the popular Shopify platform with custom-added functionality.
+title: West Coast Kitchen - Project
+description: South African food and textile products retailer.
 heading_text: West Coast Kitchen
 subheading_text: Shopify, HTML, CSS, Responsive
 permalink: /portfolio/west-coast-kitchen/
 button-top:
 button-bottom: contact-portfolio
 project:
-  devices-image: portfolio-west-coast-kitchen-preview.png
-  devices-image-alt: West Coast Kitchen on large desktop and small mobile devices
+  devices-image: /assets/img/projects/portfolio-west-coast-kitchen-preview.png
+  devices-alt: West Coast Kitchen on large desktop and small mobile devices preview
   link: http://www.westcoastkitchen.ie/
 ---
-          
-![{{ page.project.devices-image-alt }}]({{ site.url }}/{{ site.assets-img }}/{{ page.project.devices-image }})
+
+{% include image.html file=page.project.devices-image alt=page.project.devices-alt title=page.description %}
 
 West Coast Kitchen approached me to develop an eCommerce website for their retail business - South African food and textile products. The website needed to function on many different devices and browsers, be easy to update with new products, company information, and blog posts, and be well optimised for load speeds and navigation.
 
@@ -23,6 +23,6 @@ The eCommerce solution I developed is based on the popular Shopify platform and 
 I continue to work with West Coast Kitchen providing front-end and back-end development for adding new features as well as general support with updating the website's content.
 
 <div class="button-visit-website">
-  <a href="{{ page.project.link }}" target="_blank" title="External link - visit www.westcoastkitchen.ie">Visit Website <i class="fa fa-external-link"></i></a>
+  <a href="{{ page.project.link }}" target="_blank" title="External link - visit {{ page.project.link }}">Visit Website <i class="fa fa-external-link"></i></a>
 </div>
     

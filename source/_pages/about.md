@@ -10,7 +10,7 @@ button-top: contact
 button-bottom: portfolio
 ---
 
-![Portrait Photo of Sebastian Kulig]({{ site.url }}/assets/img/Sebastian-pic2.jpg "Hi! This is me.")
+![Portrait Photo of Sebastian Kulig]({% link assets/img/Sebastian-pic2.jpg %} "Hi! This is me.")
 
 Ireland based Front-end Web Developer and designer specializing in creating high quality responsive websites. Always striving on gaining new experiences, delivering successful projects, and building long-lasting relationships with clients.
 
