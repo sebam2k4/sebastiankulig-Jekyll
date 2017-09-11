@@ -4,10 +4,12 @@
 
 ## Table of Contents
 
-1. [Latest Release Notes](#v070)
+1. [Latest Release Notes](#v080)
 2. [To Do](#to-do)
 3. [Development Instructions](#development-instructions)
 4. [Notes](#notes)
+
+## v0.8.0
 
 ## v0.7.0
 * Forced TLS connections to redirect to HTTPS
@@ -21,6 +23,7 @@
 * Added Blog page
 
 ## To Do:
+* Refactor CSS into SCSS
 * Test deployment Instruction on fresh Windows VM.
 * Add MTA & CompTIA A+ certified logos
 * Remove all html from md - use only markdon and liquid inside of pages.
