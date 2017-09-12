@@ -631,14 +631,13 @@ article {
 }
 .content a {
   color: inherit;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #7ABCEE;
   font-weight: 700;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 .content a:hover {
   color: #7ABCEE;
-  border-bottom-color: #7ABCEE;
 }
 .content p.note {
   font-size: 0.875em;
