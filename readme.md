@@ -34,20 +34,35 @@
 * Add CV
 * Look at this [tutorial](https://jekyllrb.com/tutorials/convert-site-to-jekyll/)
 
-## Development Instructions (Not Tested)
+## Development Instructions
 
-To set up your environment to develop this website:
-1. Clone this repo
-2. run `bundle install` from the root folder of the repo (where _config.yml file is).
+To set up your environment to develop this website on MS Windows (tested with win7 and win10):
+
+1. Clone or download this repo
+2. Install [Ruby](https://rubyinstaller.org/) for Windows. Make sure `add Ruby executables to your PATH` is checked.
+3. Open Command Prompt as administrator and navigate to the repo folder.
+4. Install Bundler by running `gem install bundler` command.
+4. run `bundle install` command from the root folder of the repo (where _config.yml file is) to install Jekyll and all dependancies required for this project.
 
 To test the website locally as you make changes to it:
-1. Run `bundle exec jekyll serve` from the root folder of the repo and open your browser to `http://localhost:4000/`. 
+1. Build and serve the project by running `bundle exec jekyll serve` command from the root folder of the repo.
+2. Open your browser and navigate to your localhost on port 4000: `http://localhost:4000/` or alternatively type `http://127.0.0.1:4000` 
 
-This starts a Jekyll server using the website's files and content. Refresh your browser as modifications are made to see any changes.
+`bundle exec jekyll serve` starts a Jekyll server using the website's files and content. Refresh your browser as modifications are made to see any changes.
 
-For more information about Jekyll and how it works, check out [Jekyll's Documentation](https://jekyllrb.com/)
+For info on how to set up Jekyll development environment on Linux or MacOS, check out [Jekyll's Documentation](https://jekyllrb.com/).
+
+## Production
+
+1. Configure the _config.yml file with your own settings and info.
+2. Remove my content and add your own (There are plans to release this as a theme in near future which will only contain generic content)
+3. run `bundle exec jekyll build` from repo's root. This will build the website inside of a _site folder.
+4. Deploy _site folder contents to your favourite web host.
+
+I recommend using free static web hosting solutions such as: [Netlify](https://www.netlify.com/), [Surge](https://surge.sh/), or [Github Pages](https://pages.github.com/) for deploying this project on.
 
 ## Notes
-1. Please feel free to fork/clone to play around with the code or develop your own project.
-2. This project will most likely develop into a full Jekyll theme in the future for anyone to use.
-3. Please don't use any of my content: text and pictures.
+1. Please feel free to fork/clone to play around with the code or develop your own project from it.
+2. Please don't use any of my content: text and pictures. Do whatever you want with the code :)
+3. Expect regular changes to this project as it is in constant active development.
+4. At some stage I will release a theme version of the project that will be stripped of my own personal content and include only generic placeholders. This should make it easier for your own implementation.
