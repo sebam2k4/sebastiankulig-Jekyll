@@ -7,7 +7,8 @@
 1. [Latest Release Notes](#v080)
 2. [To Do](#to-do)
 3. [Development Instructions](#development-instructions)
-4. [Notes](#notes)
+4. [Production](#production)
+5. [Notes](#notes)
 
 ## v0.8.0
 
