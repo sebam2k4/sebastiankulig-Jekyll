@@ -7,12 +7,14 @@ $primary-font: 'Lato', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 
 $nav-text: white;
-$bkg-color: aliceblue;
+$page-bkg: aliceblue;
+$footer-bkg: #252626;
+$footer-text: #99adbb;
 $text-light: aliceblue;
-$text-dark: #39586f;
-$dark-blue: #5380a2;
-$middle-blue: #7abcee;
-$light-blue: #81c6fb;
+$darkest-blue: #39586F;
+$dark-blue: #5380A2;
+$middle-blue: #7AbCEE;
+$light-blue: #81C6FB;
 
 // Imports
 @import "base";
@@ -51,9 +53,9 @@ section {
 body {
   font-size: 100%;
   line-height: 1;
-  background-color: $bkg-color;
+  background-color: $page-bkg;
   font-family: $primary-font;
-  color: $text-dark;
+  color: $darkest-blue;
 }
 ol,
 ul {
@@ -88,6 +90,14 @@ section {
   padding-top: 0px;
   padding-bottom: 0px;
   margin: 0 auto;
+}
+main {
+  margin-top: 80px;
+}
+@media only screen and (min-width: 768px) {
+  main {
+    margin-top: 0px;
+  }
 }
 
 /* NAVIGATION */
@@ -129,7 +139,6 @@ section {
     letter-spacing: 1px;
     vertical-align: top;
   }
-  
   a {
     @include transition;
     &:hover {
@@ -165,12 +174,12 @@ section {
   ul {
     margin: 0;
     padding: 0;
-    border-top: 3px solid $text-dark;
+    border-top: 3px solid $darkest-blue;
     
     li {
       display: block;
       padding: 0.8rem;
-      border-bottom: 3px solid $text-dark;
+      border-bottom: 3px solid $darkest-blue;
       color: $text-light;
       text-align: center;
       text-transform: uppercase;
@@ -207,8 +216,7 @@ section {
 }
 
 @media screen and (min-width: 768px) {
-  .nav-top
- {
+  .nav-top {
     position: relative;
     
     .nav-container {
@@ -254,6 +262,120 @@ section {
       max-height: none;
       display: inline-block;
       vertical-align: middle;
+    }
+  }
+}
+
+/* HOME PAGE HEADER */
+
+.intro {
+  width: 100%;
+  padding: 80px 30px 74px 30px;
+  color: #39586F;
+  background: #7ABCEE;
+  text-align: center;
+  display: block;
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.intro-container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+
+  h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: .7em;
+    font-size: 1.4em;
+  }
+}
+.intro-list {
+  display: none;
+  font-size: 1.125em;
+}
+.intro-scroll {
+  display: inline-block;
+  padding-top: 1.25em;
+  margin-top: 1.25em;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: $nav-text;
+  @include transition;
+  &:hover {
+    color: $darkest-blue;
+  }
+
+  .fa {
+    display: block;
+    font-size: .875em;
+  }
+}
+.first-word {
+  display: table;
+  margin: auto;
+  font-size: 2em;
+  font-family: $secondary-font;
+  font-weight: 300;
+}
+
+.underline {
+  text-decoration: none;
+  color: $nav-text;
+  font-weight: 700;
+  border-bottom: 1px dashed;
+  padding-bottom: -5px;
+}
+
+@media only screen and (min-width: 480px) {
+  .intro-container {
+    h1 {
+      font-size: 1.6em;
+    }
+  }
+  
+  .intro-list {
+    display: block;
+    margin-bottom: 1em;
+    padding-left: 0;
+    font-weight: 600;
+
+    li {
+      display: inline-block;
+      margin-left: .2em;
+      vertical-align: middle;
+      &:before {
+        font-family: 'FontAwesome';
+        content: '\f111';
+        font-size: 4px;
+        vertical-align: middle;
+        display: inline-block;
+        margin-right: 1.5em;
+      }
+      &:first-child:before {
+        content: none;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .intro {
+    padding: 180px 40px 174px 40px;
+  }
+
+  .intro-container {
+    h1 {
+      font-size: 1.8em;
+    }
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .intro-container {
+    h1 {
+      font-size: 2em;
     }
   }
 }
