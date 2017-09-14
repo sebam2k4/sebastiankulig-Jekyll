@@ -6,7 +6,7 @@
 $primary-font: 'Lato', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 
-$nav-header: white;
+$nav-text: white;
 $bkg-color: aliceblue;
 $text-light: aliceblue;
 $text-dark: #39586f;
@@ -91,7 +91,7 @@ section {
 }
 
 /* NAVIGATION */
-.top-navigation {
+.nav-top {
   background-color: $dark-blue;
   color: white;
   position: fixed;
@@ -100,7 +100,7 @@ section {
   right: 0;
   z-index: 100; 
   
-  .container {
+  .nav-container {
     max-width: 1180px;
     min-height: 80px;
     margin: 0 auto;
@@ -138,13 +138,13 @@ section {
   }
 }
 
-.mobile-nav-button {
+.nav-mobile-button {
   cursor: pointer;
   float: right;
-  border: 2px solid $nav-header;
+  border: 2px solid $nav-text;
   padding: 0;
   background-color: transparent;
-  color: $nav-header;
+  color: $nav-text;
   width: 46px;
   height: 46px;
   top: -18px;
@@ -156,7 +156,7 @@ section {
   }
 }
 
-.main-nav {
+.nav-main {
   clear: both;
   margin-left: -20px;
   margin-right: -20px;
@@ -183,7 +183,7 @@ section {
           color: $light-blue;
         }
         &.current {
-          color: $nav-header;
+          color: $nav-text;
           opacity: 1;
         }
       }
@@ -192,7 +192,7 @@ section {
 }
 
 .js{
-  .main-nav.active {
+  .nav-main.active {
     display: block;
     max-height: 15em;
     @include transition;
@@ -200,17 +200,18 @@ section {
 }
 
 .js {
-  .main-nav {
+  .nav-main {
     overflow: hidden;
     max-height: 0;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .top-navigation {
+  .nav-top
+ {
     position: relative;
     
-    .container {
+    .nav-container {
       padding-top: 20px;
       min-height: 80px;
     }
@@ -222,11 +223,11 @@ section {
     padding: .8rem;
   }
 
-  .mobile-nav-button {
+  .nav-mobile-button {
     display: none;
   }
 
-  .main-nav {
+  .nav-main {
     display: inline-block;
     float: right;
     clear: none;
@@ -249,7 +250,7 @@ section {
   }
 
   .js {
-    .main-nav {
+    .nav-main {
       max-height: none;
       display: inline-block;
       vertical-align: middle;
