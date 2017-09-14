@@ -5,8 +5,8 @@
 $(document).ready(function () {
     $('body').addClass('js');
 
-    $('#mobile-nav').click(function() {
-        $('#main-nav').toggleClass('active');
+    $('#mobileNav').click(function() {
+        $('#mainNav').toggleClass('active');
     });
 
 /* highlight nav links based on url */
