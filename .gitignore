@@ -52,3 +52,6 @@ _site/
 # gems
 .gems
 .bundle
+
+# Sass
+.sass-cache

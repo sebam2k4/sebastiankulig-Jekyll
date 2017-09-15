@@ -7,7 +7,7 @@ heading_text:
 subheading_text: just testing my blog styles :&#41;
 button-top:
 button-bottom: about
-permalink: /blog-styles
+permalink: /blog-styles/
 image:
   path: https://unsplash.it/600/?image=1040
   alt: Unsplash Image

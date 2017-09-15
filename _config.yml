@@ -28,6 +28,9 @@ owner:
 markdown: kramdown
 highlighter: rouge
 
+sass:
+  sass_dir: _sass
+
 keep_files:
   - .git
 
