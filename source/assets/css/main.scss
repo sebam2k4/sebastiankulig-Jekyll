@@ -101,6 +101,7 @@ main {
 }
 
 /* NAVIGATION */
+
 .nav-top {
   background-color: $dark-blue;
   color: white;
@@ -159,7 +160,6 @@ main {
   top: -18px;
   position: relative;
   font-size: 1.125em;
-  @include transition;
   &:focus {
     outline: none;
   }
@@ -169,7 +169,6 @@ main {
   clear: both;
   margin-left: -20px;
   margin-right: -20px;
-  @include transition;
 
   ul {
     margin: 0;
@@ -200,7 +199,7 @@ main {
   }
 }
 
-.js{
+.js {
   .nav-main.active {
     display: block;
     max-height: 15em;
@@ -379,3 +378,123 @@ main {
     }
   }
 }
+
+/* FULL WIDTH BUTTON */
+
+.button-fullwidth {
+  cursor: pointer;
+  background-color: $light-blue;
+  font-size: 1.25em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  color: $nav-text;
+  @include transition;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $darkest-blue;
+  }
+
+  a{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 1rem;
+    padding-bottom: .8rem;
+    display: block;
+  }
+
+  .fa {
+    padding: 0 0.3em;
+  }
+}
+
+/* HOME PAGE - PORTFOLIO */
+
+.portfolio-showcase {
+  background: aliceblue;
+  padding-top: 80px;
+  max-width: 1200px;
+
+  h2 {
+    padding-bottom: 60px;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  figure {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-top: 0.5em;
+      
+  
+  }
+}
+.portfolio-images {
+  background: transparent;
+  &:hover>img {
+    opacity: 1;
+    @include transition;
+  }
+
+  img {
+    opacity: .5;
+    z-index: 100;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    &.logo {
+      position: absolute;
+      top: .5em;
+      left: 0;
+      opacity: 1;
+      width: 100%;
+      background: transparent;
+      @include transition;
+      &:hover {
+        opacity: 0.3;
+      }
+    }
+  }
+}
+#rosewater {
+  background-color: antiquewhite;
+}
+#curryscakeangels {
+  background-color: #7ABCEE;
+}
+#carpentry {
+  background-color: #F6D380;
+}
+#westcoastkitchen {
+  background-color: darkseagreen;
+}
+#js-quote {
+  background-color: coral;
+}
+
+@media only screen and (min-width: 580px) {
+  .portfolio-showcase {
+    figure {
+      width: 50%;
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .portfolio-showcase {
+    h2 {
+      font-size: 1.6em;
+    }
+  }
+}
+
+/* HOME PAGE - TESTIMONIALS */
