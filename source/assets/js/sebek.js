@@ -12,9 +12,9 @@ $(document).ready(function () {
 /* highlight nav links based on url */
     $(function () {
         if ((location.pathname.split("/")[1]) !== "") {
-            $('#main-nav ul li a[href*="/' + location.pathname.split("/")[1] + '"]').addClass('current');
+            $('#navMain ul li a[href*="/' + location.pathname.split("/")[1] + '"]').addClass('current');
         } else {
-            $('#main-nav ul li a#nav-home').addClass('current');
+            $('#navMain ul li a#nav-home').addClass('current');
         }
     });
 
