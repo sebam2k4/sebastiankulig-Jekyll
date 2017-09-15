@@ -18,38 +18,15 @@ $middle-blue: #7AbCEE;
 $light-blue: #81C6FB;
 
 // Imports
-@import "base";
-@import "type";
-@import "layout";
+
+@import "reset";
 @import "mixins";
 
-main,
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-nav,
-section {
-  display: block;
-  font: inherit;
-}
 ::selection,
 ::-moz-selection {
   background: coral;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 body {
   font-size: 100%;
   line-height: 1;
@@ -57,18 +34,13 @@ body {
   font-family: $primary-font;
   color: $black;
 }
-ol,
-ul {
-  list-style: none;
-}
 hr {
   display: block;
   height: 2px;
   border: 0;
-  border-top: 1px solid #ccc;
   margin: 3em 0;
   padding: 0;
-  background-color: #5380A2;
+  background-color: $dark-blue;
 }
 img {
   width: 100%;
