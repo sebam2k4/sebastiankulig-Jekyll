@@ -16,7 +16,7 @@
 * Forced TLS connections to redirect to HTTPS
 * Moved portfolio images to subfolder
 * images and blog notes are now includes
-* Added [Blog Styles Guide Page](https://www.sebastiankulig/blog-styles)
+* Added [Blog Styles Guide Page](https://www.sebastiankulig.com/blog-styles)
 * All page and asset links are now relative
 * Switched deployment to Netlify
 * Added syntax.css for code styling on blog posts
