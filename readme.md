@@ -11,6 +11,7 @@
 5. [Notes](#notes)
 
 ## v0.8.0
+* Converted css to scss
 
 ## v0.7.0
 * Forced TLS connections to redirect to HTTPS
@@ -24,8 +25,6 @@
 * Added Blog page
 
 ## To Do:
-* Refactor CSS into SCSS
-* Test deployment Instruction on fresh Windows VM.
 * Add MTA & CompTIA A+ certified logos
 * Remove all html from md - use only markdon and liquid inside of pages.
 * Add this website as portfolio-item
