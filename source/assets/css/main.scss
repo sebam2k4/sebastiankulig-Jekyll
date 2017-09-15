@@ -6,6 +6,7 @@
 $primary-font: 'Lato', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 
+$black: #111111;
 $nav-text: white;
 $page-bkg: aliceblue;
 $footer-bkg: #252626;
@@ -55,7 +56,7 @@ body {
   line-height: 1;
   background-color: $page-bkg;
   font-family: $primary-font;
-  color: $darkest-blue;
+  color: $black;
 }
 ol,
 ul {
@@ -413,15 +414,15 @@ main {
 
 /* HOME PAGE - PORTFOLIO */
 
+.section-title {
+  padding-bottom: 60px;
+  text-align: center;
+}
+
 .portfolio-showcase {
   background: aliceblue;
   padding-top: 80px;
   max-width: 1200px;
-
-  h2 {
-    padding-bottom: 60px;
-    text-align: center;
-  }
 
   h3 {
     text-align: center;
@@ -498,3 +499,109 @@ main {
 }
 
 /* HOME PAGE - TESTIMONIALS */
+
+.testimonials-showcase {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  max-width: 760px;
+
+  .testimonial {
+    text-align: left;
+    padding: 0 20px 20px 20px;
+    width: 100%;
+
+    .quote {
+      line-height: 1.5;
+      font-size: 1.125rem;
+      margin-bottom: 20px;
+    }
+
+    .source {
+      text-align: right;
+      font-weight: 700;
+
+      a {
+        color: $dark-blue;
+        @include transition;
+        &:hover {
+          color: $middle-blue;
+        }
+      }
+    }
+  }
+}
+
+/* FOOTER */
+
+.footer-page {
+  background-color: $footer-bkg;
+  color: $footer-text;
+
+  .footer-container {
+    padding: 40px 20px 20px 20px;
+    max-width: 760px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    & > div {
+      margin-bottom: 2em;
+      width: 100%;
+    }
+    & > div:not(:first-child) {
+      text-align: center;
+    }
+
+    p {
+      line-height: 1.4;
+      font-size: .875rem;
+      letter-spacing: 1px;
+      margin-bottom: 1em;
+    }
+
+    a {
+      font-weight: 700;
+      color: $nav-text;
+      @include transition;
+      &:hover {
+        color: $middle-blue;
+      }
+    }
+
+    li {
+      display: inline-block;
+      padding: 0 12px 0 8px;
+    }
+
+    dt {
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 1.125rem;
+      line-height: 2;
+    }
+
+    dd {
+      display: none;
+    }
+  }
+}
+.emphasis {
+  color: $nav-text;
+}
+
+@media only screen and (min-width: 580px) {
+  .footer-page {
+    .footer-container {
+      dt {
+        line-height: 1.2;
+      }
+      dd {
+        display: inline-block;
+        padding-bottom: 1.5em;
+        font-size: 0.875rem
+      }
+    }
+  }
+}
