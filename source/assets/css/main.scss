@@ -761,6 +761,43 @@ main {
   }
 }
 
+/* BLOG PAGE - blog list */
+.blog-list {
+
+  .blog-excerpt {
+    font-size: 1.125rem;
+  }
+  
+  .post-footer {
+    margin-top: 1.5rem;
+    line-height: 1.3;
+    .post-category {
+      font-size: 0.875rem;
+      opacity: 0.6;
+    }
+  }
+}
+
+
+
+@media only screen and (min-width: 580px) {
+  .blog-list {
+    overflow: auto;
+    .blog-excerpt {
+      float: right;
+      width: 70%;
+    }
+    
+    .post-footer {
+      float: left;
+      width: 29%;
+      span {
+        display: block;
+      }
+    }
+  }
+}
+
 /* BLOG POSTS */
 
 .blog {

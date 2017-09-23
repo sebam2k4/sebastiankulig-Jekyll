@@ -1,6 +1,6 @@
 ---
 layout: page
-type: basic
+type: blog-list
 title: Blog
 description: About Coding and Web Development
 heading_text:
