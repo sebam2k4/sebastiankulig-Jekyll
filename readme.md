@@ -11,7 +11,7 @@
 5. [Notes](#notes)
 
 ## v0.8.0
-* Converted css to scss
+* Refactored css to scss
 
 ## v0.7.0
 * Forced TLS connections to redirect to HTTPS
@@ -33,6 +33,8 @@
 * See Jekyll related posts in (https://mademistakes.com/faqs/website-tools/)
 * Add CV
 * Look at this [tutorial](https://jekyllrb.com/tutorials/convert-site-to-jekyll/)
+* Generate porfolio project list on home page from data?
+* Generate top and bottom navigations form data?
 
 ## Development Instructions
 
