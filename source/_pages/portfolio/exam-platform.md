@@ -9,7 +9,7 @@ permalink: /portfolio/exam-platform/
 button-top:
 button-bottom: contact-portfolio
 project:
-  devices-image: /assets/img/projects/portfolio-exam-platform-preview.png
+  devices-image: /assets/img/projects/devices-exam-platform-preview.png
   devices-alt: Examination Platform website on large desktop and small mobile devices preview
   link: https://sebam2k4.github.io/stream1-project/
 ---

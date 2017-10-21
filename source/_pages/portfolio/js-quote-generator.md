@@ -9,7 +9,7 @@ permalink: /portfolio/js-quote-generator/
 button-top:
 button-bottom: contact-portfolio
 project:
-  devices-image: /assets/img/projects/portfolio-JS-quote-generator-preview.png
+  devices-image: /assets/img/projects/devices-JS-quote-generator-preview.png
   devices-alt: Quote Generator on large desktop and small mobile devices preview
   link: https://sebam2k4.github.io/Random-Quote-Generator-JS/
 ---

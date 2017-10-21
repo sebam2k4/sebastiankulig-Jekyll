@@ -9,7 +9,7 @@ permalink: /portfolio/west-coast-kitchen/
 button-top:
 button-bottom: contact-portfolio
 project:
-  devices-image: /assets/img/projects/portfolio-west-coast-kitchen-preview.png
+  devices-image: /assets/img/projects/devices-west-coast-kitchen-preview.png
   devices-alt: West Coast Kitchen on large desktop and small mobile devices preview
   link: http://www.westcoastkitchen.ie/
 ---

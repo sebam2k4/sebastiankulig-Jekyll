@@ -9,7 +9,7 @@ permalink: /portfolio/rosewater/
 button-top:
 button-bottom: contact-portfolio
 project:
-  devices-image: /assets/img/projects/portfolio-rosewater-preview.png
+  devices-image: /assets/img/projects/devices-rosewater-preview.png
   devices-alt: Rosewater on large desktop and small mobile devices preview
   link: http://www.rosewater.ie/
 ---
