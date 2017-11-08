@@ -12,7 +12,12 @@
 
 ## v0.8.0
 * Refactored css to scss
+* Added Examination Platform project
+* Added JS Calculator + Jasmine Unit Testing project
+* Updated development instructions
+* Added MTA & CompTIA A+ certified logos
 
+// remove below on new version release:
 ## v0.7.0
 * Forced TLS connections to redirect to HTTPS
 * Moved portfolio images to subfolder
@@ -25,16 +30,19 @@
 * Added Blog page
 
 ## To Do:
-* Add MTA & CompTIA A+ certified logos
 * Remove all html from md - use only markdon and liquid inside of pages.
 * Add this website as portfolio-item
 * finish content for portfolio pages
 * look at Jekyll Documentation
-* See Jekyll related posts in (https://mademistakes.com/faqs/website-tools/)
 * Add CV
-* Look at this [tutorial](https://jekyllrb.com/tutorials/convert-site-to-jekyll/)
+* Write a Blog Post
+
 * Generate porfolio project list on home page from data?
 * Generate top and bottom navigations form data?
+
+## Good resources to have a look at (note to self)
+* Look at this [tutorial](https://jekyllrb.com/tutorials/convert-site-to-jekyll/)
+* See Jekyll related posts in (https://mademistakes.com/faqs/website-tools/)
 
 ## Development Instructions
 
