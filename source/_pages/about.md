@@ -46,9 +46,15 @@ I can design the look of your website from scratch or convert a design provided 
 
 * Microsoft Technology Associate (MTA) Certified - 17/08/2017
 
+Establishes core skills and understanding of programming concepts such as: Datatypes, Object-Oriented Programming,
+Application Life-cycle, Web and Desktop Application Development, and Relational Databases.
+
 [![MTA Certified logo]({% link assets/img/MTA_SoftDev_Blk_extra_small.png %})](https://www.youracclaim.com/badges/3862e38e-72f0-4e64-a231-3cb1489c7815 "View MTA Certificate")
 
 * CompTIA A+ Certified - 22/06/2017
+
+Certifes the competency of PC computer service professionals in installing, maintaining, customizing, and operating of
+Personal Computers
 
 [![Comptia A+ Certified logo]({% link assets/img/Aplus-Logo-Certified-CE_extra-small.png %})](https://s3-eu-west-1.amazonaws.com/sk-design/Certs/CompTIA+A%2B+ce+certificate.pdf "View Comptia A+ Certificate")
 
