@@ -663,14 +663,20 @@ main {
 }
 
 .about {
+  .about-me-photo {
+    img {
+      height: 110px;
+      width: 110px;
+      float: left;
+      margin-right: .5em;
+      margin-top: -1.1em;
+      border: 5px solid $middle-blue;
+      border-radius: 55px;
+    }
+  }
   img {
-    height: 110px;
-    width: 110px;
-    float: left;
-    margin-right: .5em;
-    margin-top: -1.1em;
-    border: 5px solid $middle-blue;
-    border-radius: 55px;
+    width: auto;
+    display: block;
   }
 }
 
