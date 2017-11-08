@@ -4,7 +4,7 @@ type: portfolio
 title: Rosewater - Project
 description: Rosewater Wedding - Bespoke wedding decor specialists.
 heading_text: Rosewater Weddings
-subheading_text: Shopify, HTML, CSS, Responsive, Graphic Design
+subheading_text: Shopify, HTML, CSS, Graphic Design
 permalink: /portfolio/rosewater/
 button-top:
 button-bottom: contact-portfolio

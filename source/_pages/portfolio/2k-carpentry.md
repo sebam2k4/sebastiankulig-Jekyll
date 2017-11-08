@@ -4,7 +4,7 @@ type: portfolio
 title: 2K Carpentry - project
 description: 
 heading_text: 2k Carpentry
-subheading_text: Wordpress, HTML, CSS, Responsive
+subheading_text: Wordpress, HTML, CSS
 permalink: /portfolio/2k-carpentry/
 button-top:
 button-bottom: contact-portfolio

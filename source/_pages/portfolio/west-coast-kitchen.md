@@ -4,7 +4,7 @@ type: portfolio
 title: West Coast Kitchen - Project
 description: South African food and textile products retailer.
 heading_text: West Coast Kitchen
-subheading_text: Shopify, HTML, CSS, Responsive
+subheading_text: Shopify, HTML, CSS
 permalink: /portfolio/west-coast-kitchen/
 button-top:
 button-bottom: contact-portfolio
