@@ -8,8 +8,8 @@ layout: default
       <h1>{% if page.heading_text %}{{ page.heading_text }}{% else %}{{ page.title }}{% endif %}</h1>
       <h2>{% if page.subheading_text %}{{ page.subheading_text}}{% else %}{{page.description}}{% endif %}</h2>
     </header>
-    {% include button-top.html %}
     <div class="content blog">
+      <p>{{ page.date | date: "%B %-d, %Y"}}</p>
       {{ content }}
     </div> 
   </article>
