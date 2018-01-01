@@ -11,8 +11,8 @@ button-bottom: contact-portfolio
 project:
   devices-image: /assets/img/projects/devices-exam-platform-preview.png
   devices-alt: Examination Platform website on large desktop and small mobile devices preview
-  link: https://sebam2k4.github.io/stream1-project/
-  source: https://github.com/sebam2k4/stream1-project
+  link: https://sebam2k4.github.io/exam-platform-angularjs/
+  source: https://github.com/sebam2k4/exam-platform-angularjs
 ---
 
 {% include image.html file=page.project.devices-image alt=page.project.devices-alt title=page.description %}
