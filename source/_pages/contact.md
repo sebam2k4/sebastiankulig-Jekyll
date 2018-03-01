@@ -1,10 +1,10 @@
 ---
 layout: page
 type: contact
-title: Hire Sebastian - Web Developer
-description: Enquire about hiring me.
-heading_text: Hire Sebastian
-subheading_text: I'd love to be part of your team
+title: Contact Sebastian - Web Developer
+description: Contact Sebastian.
+heading_text: Contact Sebastian
+subheading_text: Available for freelance work or to join your awesome team
 permalink: /hire-sebastian/
 button-top: about
 button-bottom:
