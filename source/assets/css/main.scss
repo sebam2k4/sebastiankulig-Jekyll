@@ -674,9 +674,16 @@ main {
       border-radius: 55px;
     }
   }
+  h4 {
+    margin-top: 1.125em;
+  }
   img {
     width: auto;
-    display: block;
+  }
+  .cert {
+    a {
+      border-bottom: none;
+    }
   }
 }
 
