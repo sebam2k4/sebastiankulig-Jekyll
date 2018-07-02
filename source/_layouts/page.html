@@ -12,7 +12,10 @@ layout: default
     <div class="content {% if page.type == "about" %}about{% elsif page.type == "portfolio" %}portfolio-page{% endif %}">
       {{ content }}
       {% if page.blog-list %}
+        <p>Comming Soon</p>
+        {% comment %}
         {% include blog-list.html %}
+        {% endcomment %}
       {% endif %}
       {% if page.type == "portfolio" %}
       {% include portfolio-last-p.html %}

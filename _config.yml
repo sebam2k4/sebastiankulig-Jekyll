@@ -2,7 +2,7 @@
 source              : source/
 destination         : _site/
 
-title               : Sebastian Kulig - On a journey becoming a Full-Stack web developer
+title               : Sebastian Kulig - Full Stack Web Developer
 description         : Responsive and mobile-friendly website design for you and your business. Based in Castlebar, Co. Mayo, Ireland
 locale              : en-IE
 encoding            : utf-8

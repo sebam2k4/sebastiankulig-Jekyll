@@ -16,6 +16,8 @@
 * Added JS Calculator + Jasmine Unit Testing project
 * Updated development instructions
 * Added MTA & CompTIA A+ certified logos
+* Updated info and content
+*
 
 // remove below on new version release:
 ## v0.7.0
@@ -32,7 +34,6 @@
 ## To Do:
 * Remove all html from md - use only markdon and liquid inside of pages.
 * Add this website as portfolio-item
-* finish content for portfolio pages
 * look at Jekyll Documentation
 * Add CV
 * Write a Blog Post

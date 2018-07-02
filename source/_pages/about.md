@@ -13,7 +13,7 @@ button-bottom: portfolio
 ![Portrait Photo of Sebastian Kulig]({% link assets/img/Sebastian-pic2.jpg %} "Hi! This is me.")
 {: .about-me-photo}
 
-My name is Sebastian Kulig and I am based in the beautiful west of Ireland. I am on a [journey to become a Full-Stack Web Developer](https://github.com/sebam2k4/Web-Development-Curriculum) and am currently undertaking a diploma in Full Stack Web Development. Always striving on gaining new experiences, knowledge, and relationships while delivering successful projects.
+My name is Sebastian Kulig and I am based in the beautiful west of Ireland. I am passionate about web technologies and enjoy solving problems - a lifelong learner enthusiastic about developing professional skills. Always striving on gaining new experiences, knowledge, and relationships while delivering successful projects.
 
 
 ## Skills
@@ -22,10 +22,10 @@ My name is Sebastian Kulig and I am based in the beautiful west of Ireland. I am
 I'm passionate about creating beautiful, clean, and functional online experiences using best coding practices and complying with the W3C web guidelines for creating semantic and SEO friendly code.
 * HTML 5
 * CSS 3
-* Javascript &amp; JQuery
+* Javascript (ES5, ES6) &amp; JQuery
 * Jasmine Unit Testing
-* AngularJS
-* Jekyll
+* AngularJS, Angular 2+
+* Jekyll, Pelican
 * D3, DC, and Crossfilter for interactive data visualisation
 
 
@@ -37,6 +37,13 @@ I'm passionate about creating beautiful, clean, and functional online experience
 * mySQL/PostgreSQL
 * MongoDB
 
+
+### Tools
+* Git, Github, TravisCI
+* Python Virtual Environments
+* Npm includingscripts for building/task running
+* Photoshop
+* Adobe XD
 ## Certification
 
 [![MTA Certified logo]({% link assets/img/MTA_SoftDev_Blk_extra_small.png %})](https://www.youracclaim.com/badges/3862e38e-72f0-4e64-a231-3cb1489c7815 "View MTA Certificate")
@@ -56,6 +63,6 @@ Certifes the competency of PC computer service professionals in installing, main
 Personal Computers
 
 ## Availability
-I'm currently open to offers and would love to become part of a professional team!
+I'm currently open to offers and contract work - would love to become part of a professional team!
 
 Let's discuss how we can [work together]({% link _pages/contact.md %} "Contact Sebastian Kulig - web developer")
